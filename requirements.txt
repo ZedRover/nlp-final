@@ -4,3 +4,4 @@ pytorch-lightning
 lightning-bolts
 pandas
 numpy
+wandb

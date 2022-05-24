@@ -1,7 +1,6 @@
 #
-
 import sys
-sys.path.append('/Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook')
+sys.path.append('/dssg/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook')
 import numpy as np
 import pandas as pd
 import config
@@ -75,17 +74,13 @@ if __name__=='__main__':
         mode='min',
         save_last=True
     )
-    trainer = pl.Trainer(accelerator='mps', max_epochs=2,
+    trainer = pl.Trainer(accelerator='auto', max_epochs=2, 
                         callbacks=[checkpoint_callback],
                         check_val_every_n_epoch=1)
     model = BaseLineModel(lr=0.01)
     data_module = MyDataModule(batch_size=32,num_workers=10)
     trainer.fit(model,data_module)
-
-    #
     trainer.test(model, datamodule=data_module)
-
-    #
     #wandb.finish()
 
 
