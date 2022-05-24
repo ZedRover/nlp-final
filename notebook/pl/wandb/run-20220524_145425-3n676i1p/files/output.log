@@ -1,0 +1,277 @@
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+MPS available: True, using 1 MPS
+  | Name      | Type             | Params
+-----------------------------------------------
+0 | l1        | Linear           | 600
+1 | accuracy  | Accuracy         | 0
+2 | calc_loss | CrossEntropyLoss | 0
+-----------------------------------------------
+600       Trainable params
+0         Non-trainable params
+600       Total params
+0.002     Total estimated model params size (MB)
+Sanity Checking: 0it [00:00, ?it/s]
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145455-1optx80p
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33msparkling-pyramid-11
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/cnn
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/cnn/runs/1optx80p
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145509-3ap8lfsg
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mzesty-sea-12
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/cnn
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/cnn/runs/3ap8lfsg
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145524-363mx0c8
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mkind-waterfall-13
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/cnn
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/cnn/runs/363mx0c8
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145539-1wlaycc5
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mgraceful-water-14
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/cnn
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/cnn/runs/1wlaycc5
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145554-23dofbsa
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mzesty-glade-15
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/cnn
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/cnn/runs/23dofbsa
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145609-1o2eu7ie
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mdeft-thunder-16
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/cnn
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/cnn/runs/1o2eu7ie
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145623-2dnw5cwb
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mgallant-valley-17
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/cnn
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/cnn/runs/2dnw5cwb
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145639-1u5kxpvh
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mazure-disco-18
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/cnn
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/cnn/runs/1u5kxpvh
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145655-7z9chzm1
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mdrawn-aardvark-19
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/cnn
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/cnn/runs/7z9chzm1
+
+Epoch 0:   0%|                                                                                                                                                                                             | 0/1215 [00:00<?, ?it/s]
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145708-2ffhnh2r
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mvaliant-lion-20
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/cnn
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/cnn/runs/2ffhnh2r
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145723-3sqadl48
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mradiant-spaceship-21
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/cnn
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/cnn/runs/3sqadl48
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145735-3tc3ipq5
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mnorthern-cherry-22
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/cnn
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/cnn/runs/3tc3ipq5
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145749-2idyvdfs
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mgolden-sunset-23
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/cnn
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/cnn/runs/2idyvdfs
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145802-u58sx05j
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mcomfy-thunder-24
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/cnn
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/cnn/runs/u58sx05j
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145816-1vz5iiwc
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mfresh-bush-25
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/cnn
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/cnn/runs/1vz5iiwc
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145832-2rbn919r
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mzany-meadow-26
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/cnn
+
+Epoch 0:   0%|                                                                                                                                                                                             | 0/1215 [00:00<?, ?it/s]Problem at: /opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/pytorch_lightning-1.7.0.dev0-py3.9.egg/pytorch_lightning/loggers/wandb.py 357 experiment
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/runpy.py", line 268, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+  File "/Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/baseline.py", line 25, in <module>
+    wandb_logger = WandbLogger(project='cnn')
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/pytorch_lightning-1.7.0.dev0-py3.9.egg/pytorch_lightning/loggers/wandb.py", line 311, in __init__
+    _ = self.experiment
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/pytorch_lightning-1.7.0.dev0-py3.9.egg/pytorch_lightning/loggers/logger.py", line 41, in experiment
+    return get_experiment() or DummyExperiment()
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/pytorch_lightning-1.7.0.dev0-py3.9.egg/pytorch_lightning/utilities/rank_zero.py", line 32, in wrapped_fn
+    return fn(*args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/pytorch_lightning-1.7.0.dev0-py3.9.egg/pytorch_lightning/loggers/logger.py", line 39, in get_experiment
+    return fn(self)
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/pytorch_lightning-1.7.0.dev0-py3.9.egg/pytorch_lightning/loggers/wandb.py", line 357, in experiment
+    self._experiment = wandb.init(**self._wandb_init)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1021, in init
+    raise e
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 999, in init
+    run = wi.init()
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 630, in init
+    run_result = backend.interface.communicate_run(
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 223, in communicate_run
+    return self._communicate_run(run, timeout=timeout)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 324, in _communicate_run
+    resp = self._communicate(req, timeout=timeout)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/wandb/sdk/interface/router.py", line 37, in get
+    is_set = self._object_ready.wait(timeout)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/threading.py", line 574, in wait
+    signaled = self._cond.wait(timeout)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [31m(failed 255).[39m Press Control-C to abort syncing.
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x12069d550>
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1407, in __del__
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).[39med)
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+    self._shutdown_workers()
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1365, in _shutdown_workers
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: - 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)
+[34m[1mwandb[39m[22m: \ 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)
+[34m[1mwandb[39m[22m: - 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1875, in _try_wait
+Error in atexit._run_exitfuncs:
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+Error in atexit._run_exitfuncs:
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1189, in wait
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1189, in wait
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1189, in wait
+    (pid, sts) = self._try_wait(0)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1875, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1189, in wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+    return self._wait(timeout=timeout)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1917, in _wait
+    return self._wait(timeout=timeout)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1917, in _wait
+    return self._wait(timeout=timeout)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1917, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1875, in _try_wait
+    return self._wait(timeout=timeout)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1917, in _wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+    return self._wait(timeout=timeout)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1917, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1875, in _try_wait
+    (pid, sts) = self._try_wait(0)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1875, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+    (pid, sts) = self._try_wait(0)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1875, in _try_wait
+    return self._wait(timeout=timeout)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1917, in _wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+KeyboardInterrupt
+    return self._wait(timeout=timeout)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1917, in _wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+    (pid, sts) = self._try_wait(0)
+KeyboardInterrupt
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1875, in _try_wait
+    (pid, sts) = self._try_wait(0)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1875, in _try_wait
+    return self._wait(timeout=timeout)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1917, in _wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+    (pid, sts) = self._try_wait(0)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1875, in _try_wait
+    return self._wait(timeout=timeout)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1917, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1875, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+    (pid, sts) = self._try_wait(0)
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/subprocess.py", line 1875, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt

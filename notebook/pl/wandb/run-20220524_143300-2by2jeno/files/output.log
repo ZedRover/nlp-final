@@ -1,0 +1,61 @@
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/torch/distributed/_sharded_tensor/__init__.py:8: DeprecationWarning: torch.distributed._sharded_tensor will be deprecated, use torch.distributed._shard.sharded_tensor instead
+  warnings.warn(
+  | Name      | Type             | Params
+-----------------------------------------------
+0 | l1        | Linear           | 600
+1 | accuracy  | Accuracy         | 0
+2 | calc_loss | CrossEntropyLoss | 0
+-----------------------------------------------
+600       Trainable params
+0         Non-trainable params
+600       Total params
+0.002     Total estimated model params size (MB)
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/flatbuffers/compat.py:19: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/keras/utils/image_utils.py:36: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  'nearest': pil_image.NEAREST,
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/keras/utils/image_utils.py:37: DeprecationWarning: BILINEAR is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BILINEAR instead.
+  'bilinear': pil_image.BILINEAR,
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/keras/utils/image_utils.py:38: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  'bicubic': pil_image.BICUBIC,
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/keras/utils/image_utils.py:39: DeprecationWarning: HAMMING is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.HAMMING instead.
+  'hamming': pil_image.HAMMING,
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/keras/utils/image_utils.py:40: DeprecationWarning: BOX is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BOX instead.
+  'box': pil_image.BOX,
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/keras/utils/image_utils.py:41: DeprecationWarning: LANCZOS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  'lanczos': pil_image.LANCZOS,
+  | Name      | Type             | Params
+-----------------------------------------------
+0 | l1        | Linear           | 600
+1 | accuracy  | Accuracy         | 0
+2 | calc_loss | CrossEntropyLoss | 0
+-----------------------------------------------
+600       Trainable params
+0         Non-trainable params
+600       Total params
+0.002     Total estimated model params size (MB)
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/pytorch_lightning-1.7.0.dev0-py3.9.egg/pytorch_lightning/trainer/connectors/data_connector.py:219: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 10 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/pytorch_lightning-1.7.0.dev0-py3.9.egg/pytorch_lightning/trainer/connectors/data_connector.py:219: PossibleUserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 10 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/pytorch_lightning-1.7.0.dev0-py3.9.egg/pytorch_lightning/loggers/wandb.py:347: UserWarning: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+  rank_zero_warn(
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+  | Name      | Type             | Params
+-----------------------------------------------
+0 | l1        | Linear           | 600
+1 | accuracy  | Accuracy         | 0
+2 | calc_loss | CrossEntropyLoss | 0
+-----------------------------------------------
+600       Trainable params
+0         Non-trainable params
+600       Total params
+0.002     Total estimated model params size (MB)

@@ -1,0 +1,14 @@
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+MPS available: True, using 1 MPS
+  | Name      | Type             | Params
+-----------------------------------------------
+0 | l1        | Linear           | 600
+1 | accuracy  | Accuracy         | 0
+2 | calc_loss | CrossEntropyLoss | 0
+-----------------------------------------------
+600       Trainable params
+0         Non-trainable params
+600       Total params

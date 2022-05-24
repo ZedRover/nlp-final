@@ -1,0 +1,5 @@
+data
+!data/*.pth
+**/__pycache__
+**/_DS_Store
+

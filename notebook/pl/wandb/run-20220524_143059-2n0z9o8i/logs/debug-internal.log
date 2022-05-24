@@ -1,0 +1,59 @@
+2022-05-24 14:30:59,895 INFO    MainThread:85289 [internal.py:wandb_internal():90] W&B internal server running at pid: 85289, started at: 2022-05-24 14:30:59.895692
+2022-05-24 14:30:59,897 INFO    WriterThread:85289 [datastore.py:open_for_write():75] open: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_143059-2n0z9o8i/run-2n0z9o8i.wandb
+2022-05-24 14:30:59,897 DEBUG   SenderThread:85289 [sender.py:send():232] send: header
+2022-05-24 14:30:59,897 DEBUG   SenderThread:85289 [sender.py:send():232] send: run
+2022-05-24 14:30:59,898 INFO    SenderThread:85289 [sender.py:_maybe_setup_resume():489] checking resume status for None/cnn/2n0z9o8i
+2022-05-24 14:31:01,863 DEBUG   HandlerThread:85289 [handler.py:handle_request():141] handle_request: check_version
+2022-05-24 14:31:01,866 INFO    SenderThread:85289 [dir_watcher.py:__init__():197] watching files in: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_143059-2n0z9o8i/files
+2022-05-24 14:31:01,866 INFO    SenderThread:85289 [sender.py:_start_run_threads():811] run started: 2n0z9o8i with start time 1653373859
+2022-05-24 14:31:01,866 DEBUG   SenderThread:85289 [sender.py:send():232] send: summary
+2022-05-24 14:31:01,866 INFO    SenderThread:85289 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-24 14:31:01,866 DEBUG   SenderThread:85289 [sender.py:send_request():246] send_request: check_version
+2022-05-24 14:31:02,870 INFO    Thread-7  :85289 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_143059-2n0z9o8i/files/wandb-summary.json
+2022-05-24 14:31:04,871 DEBUG   HandlerThread:85289 [handler.py:handle_request():141] handle_request: run_start
+2022-05-24 14:31:06,426 DEBUG   HandlerThread:85289 [meta.py:__init__():35] meta init
+2022-05-24 14:31:06,427 DEBUG   HandlerThread:85289 [meta.py:__init__():49] meta init done
+2022-05-24 14:31:06,427 DEBUG   HandlerThread:85289 [meta.py:probe():209] probe
+2022-05-24 14:31:06,431 DEBUG   HandlerThread:85289 [git.py:repo():29] git repository is invalid
+2022-05-24 14:31:06,432 DEBUG   HandlerThread:85289 [meta.py:_save_pip():53] save pip
+2022-05-24 14:31:06,432 DEBUG   HandlerThread:85289 [meta.py:_save_pip():67] save pip done
+2022-05-24 14:31:06,432 DEBUG   HandlerThread:85289 [meta.py:_save_conda():74] save conda
+2022-05-24 14:31:06,880 INFO    Thread-7  :85289 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_143059-2n0z9o8i/files/conda-environment.yaml
+2022-05-24 14:31:06,880 INFO    Thread-7  :85289 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_143059-2n0z9o8i/files/requirements.txt
+2022-05-24 14:31:09,890 INFO    Thread-7  :85289 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_143059-2n0z9o8i/files/output.log
+2022-05-24 14:31:11,897 INFO    Thread-7  :85289 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_143059-2n0z9o8i/files/output.log
+2022-05-24 14:31:13,766 DEBUG   HandlerThread:85289 [meta.py:_save_conda():84] save conda done
+2022-05-24 14:31:13,766 DEBUG   HandlerThread:85289 [meta.py:probe():247] probe done
+2022-05-24 14:31:13,769 DEBUG   HandlerThread:85289 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:31:13,769 DEBUG   SenderThread:85289 [sender.py:send():232] send: telemetry
+2022-05-24 14:31:13,770 DEBUG   HandlerThread:85289 [handler.py:handle_request():141] handle_request: pause
+2022-05-24 14:31:13,770 DEBUG   SenderThread:85289 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:31:13,770 INFO    HandlerThread:85289 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-24 14:31:13,912 INFO    Thread-7  :85289 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_143059-2n0z9o8i/files/output.log
+2022-05-24 14:31:13,912 INFO    Thread-7  :85289 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_143059-2n0z9o8i/files/conda-environment.yaml
+2022-05-24 14:31:13,913 INFO    Thread-7  :85289 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_143059-2n0z9o8i/files/wandb-metadata.json
+2022-05-24 14:31:14,430 DEBUG   SenderThread:85289 [sender.py:send():232] send: telemetry
+2022-05-24 14:31:14,430 DEBUG   SenderThread:85289 [sender.py:send():232] send: metric
+2022-05-24 14:31:14,430 DEBUG   SenderThread:85289 [sender.py:send():232] send: telemetry
+2022-05-24 14:31:14,430 DEBUG   SenderThread:85289 [sender.py:send():232] send: metric
+2022-05-24 14:31:14,430 WARNING SenderThread:85289 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2022-05-24 14:31:14,514 DEBUG   HandlerThread:85289 [handler.py:handle_request():141] handle_request: resume
+2022-05-24 14:31:14,514 INFO    HandlerThread:85289 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-24 14:31:14,517 DEBUG   HandlerThread:85289 [handler.py:handle_request():141] handle_request: pause
+2022-05-24 14:31:14,518 INFO    HandlerThread:85289 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-24 14:31:15,766 DEBUG   HandlerThread:85289 [handler.py:handle_request():141] handle_request: resume
+2022-05-24 14:31:15,766 INFO    HandlerThread:85289 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-24 14:31:15,770 DEBUG   SenderThread:85289 [sender.py:send():232] send: files
+2022-05-24 14:31:15,771 INFO    SenderThread:85289 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-05-24 14:31:15,773 DEBUG   SenderThread:85289 [sender.py:send():232] send: stats
+2022-05-24 14:31:15,773 DEBUG   SenderThread:85289 [sender.py:send():232] send: stats
+2022-05-24 14:31:19,026 INFO    Thread-13 :85289 [upload_job.py:push():132] Uploaded file /var/folders/l4/lww9t45j5qx1j3mc1k2mh6100000gn/T/tmps8ytq406wandb/w2t70jr1-wandb-metadata.json
+2022-05-24 14:31:29,433 DEBUG   HandlerThread:85289 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:31:29,435 DEBUG   SenderThread:85289 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:31:34,978 INFO    Thread-7  :85289 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_143059-2n0z9o8i/files/config.yaml
+2022-05-24 14:31:46,127 DEBUG   HandlerThread:85289 [handler.py:handle_request():141] handle_request: pause
+2022-05-24 14:31:46,127 INFO    HandlerThread:85289 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-24 14:31:46,750 DEBUG   SenderThread:85289 [sender.py:send():232] send: stats
+2022-05-24 14:31:46,924 DEBUG   HandlerThread:85289 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:31:46,925 DEBUG   SenderThread:85289 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:31:54,764 WARNING MainThread:85289 [internal.py:wandb_internal():153] Internal process interrupt: 1

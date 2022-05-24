@@ -1,0 +1,4 @@
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/pytorch_lightning-1.7.0.dev0-py3.9.egg/pytorch_lightning/loggers/wandb.py:347: UserWarning: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+  rank_zero_warn(
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/pytorch_lightning-1.7.0.dev0-py3.9.egg/pytorch_lightning/trainer/connectors/accelerator_connector.py:424: LightningDeprecationWarning: Setting `Trainer(gpus=-1)` is deprecated in v1.7 and will be removed in v2.0. Please use `Trainer(accelerator='gpu', devices=-1)` instead.
+  rank_zero_deprecation(

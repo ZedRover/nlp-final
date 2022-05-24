@@ -1,0 +1,264 @@
+2022-05-24 14:51:33,136 INFO    MainThread:97410 [internal.py:wandb_internal():90] W&B internal server running at pid: 97410, started at: 2022-05-24 14:51:33.136113
+2022-05-24 14:51:33,137 INFO    WriterThread:97410 [datastore.py:open_for_write():75] open: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/run-127z0vwk.wandb
+2022-05-24 14:51:33,138 DEBUG   SenderThread:97410 [sender.py:send():232] send: header
+2022-05-24 14:51:33,138 DEBUG   SenderThread:97410 [sender.py:send():232] send: run
+2022-05-24 14:51:33,139 INFO    SenderThread:97410 [sender.py:_maybe_setup_resume():489] checking resume status for None/cnn/127z0vwk
+2022-05-24 14:51:35,727 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: check_version
+2022-05-24 14:51:35,730 INFO    SenderThread:97410 [dir_watcher.py:__init__():197] watching files in: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files
+2022-05-24 14:51:35,730 INFO    SenderThread:97410 [sender.py:_start_run_threads():811] run started: 127z0vwk with start time 1653375092
+2022-05-24 14:51:35,730 DEBUG   SenderThread:97410 [sender.py:send():232] send: summary
+2022-05-24 14:51:35,730 INFO    SenderThread:97410 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-24 14:51:35,730 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: check_version
+2022-05-24 14:51:36,610 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: run_start
+2022-05-24 14:51:37,137 INFO    Thread-7  :97410 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/wandb-summary.json
+2022-05-24 14:51:38,148 DEBUG   HandlerThread:97410 [meta.py:__init__():35] meta init
+2022-05-24 14:51:38,148 DEBUG   HandlerThread:97410 [meta.py:__init__():49] meta init done
+2022-05-24 14:51:38,148 DEBUG   HandlerThread:97410 [meta.py:probe():209] probe
+2022-05-24 14:51:38,153 DEBUG   HandlerThread:97410 [git.py:repo():29] git repository is invalid
+2022-05-24 14:51:38,153 DEBUG   HandlerThread:97410 [meta.py:_save_pip():53] save pip
+2022-05-24 14:51:38,154 DEBUG   HandlerThread:97410 [meta.py:_save_pip():67] save pip done
+2022-05-24 14:51:38,154 DEBUG   HandlerThread:97410 [meta.py:_save_conda():74] save conda
+2022-05-24 14:51:39,142 INFO    Thread-7  :97410 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/conda-environment.yaml
+2022-05-24 14:51:39,142 INFO    Thread-7  :97410 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/requirements.txt
+2022-05-24 14:51:42,155 INFO    Thread-7  :97410 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/output.log
+2022-05-24 14:51:44,165 INFO    Thread-7  :97410 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/output.log
+2022-05-24 14:51:45,458 DEBUG   HandlerThread:97410 [meta.py:_save_conda():84] save conda done
+2022-05-24 14:51:45,458 DEBUG   HandlerThread:97410 [meta.py:probe():247] probe done
+2022-05-24 14:51:45,462 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:51:45,462 DEBUG   SenderThread:97410 [sender.py:send():232] send: telemetry
+2022-05-24 14:51:45,462 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:51:45,465 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: pause
+2022-05-24 14:51:45,465 INFO    HandlerThread:97410 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-24 14:51:46,174 INFO    Thread-7  :97410 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/conda-environment.yaml
+2022-05-24 14:51:46,180 INFO    Thread-7  :97410 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/wandb-metadata.json
+2022-05-24 14:51:46,241 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: resume
+2022-05-24 14:51:46,241 INFO    HandlerThread:97410 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-24 14:51:46,241 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: pause
+2022-05-24 14:51:46,241 INFO    HandlerThread:97410 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-24 14:51:46,346 DEBUG   SenderThread:97410 [sender.py:send():232] send: telemetry
+2022-05-24 14:51:46,346 DEBUG   SenderThread:97410 [sender.py:send():232] send: metric
+2022-05-24 14:51:46,346 DEBUG   SenderThread:97410 [sender.py:send():232] send: telemetry
+2022-05-24 14:51:46,346 DEBUG   SenderThread:97410 [sender.py:send():232] send: metric
+2022-05-24 14:51:46,346 WARNING SenderThread:97410 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2022-05-24 14:51:47,499 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: resume
+2022-05-24 14:51:47,499 INFO    HandlerThread:97410 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-24 14:51:47,505 DEBUG   SenderThread:97410 [sender.py:send():232] send: files
+2022-05-24 14:51:47,505 INFO    SenderThread:97410 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-05-24 14:51:47,505 DEBUG   SenderThread:97410 [sender.py:send():232] send: stats
+2022-05-24 14:51:47,506 DEBUG   SenderThread:97410 [sender.py:send():232] send: stats
+2022-05-24 14:51:50,623 INFO    Thread-13 :97410 [upload_job.py:push():132] Uploaded file /var/folders/l4/lww9t45j5qx1j3mc1k2mh6100000gn/T/tmpx0sk07otwandb/1681o547-wandb-metadata.json
+2022-05-24 14:52:01,355 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:52:01,356 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:52:05,253 INFO    Thread-7  :97410 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/config.yaml
+2022-05-24 14:52:16,990 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:52:16,990 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:52:27,108 DEBUG   SenderThread:97410 [sender.py:send():232] send: stats
+2022-05-24 14:52:32,936 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:52:32,937 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:52:48,547 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:52:48,548 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:53:05,693 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:53:05,693 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:53:08,279 DEBUG   SenderThread:97410 [sender.py:send():232] send: stats
+2022-05-24 14:53:22,538 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:53:22,538 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:53:39,529 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:53:39,530 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:53:48,917 DEBUG   SenderThread:97410 [sender.py:send():232] send: stats
+2022-05-24 14:53:55,482 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:53:55,483 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:54:11,413 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:54:11,414 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:54:27,033 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:54:27,033 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:54:30,400 DEBUG   SenderThread:97410 [sender.py:send():232] send: stats
+2022-05-24 14:54:43,037 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:54:43,038 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:54:59,331 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:54:59,332 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:55:12,237 DEBUG   SenderThread:97410 [sender.py:send():232] send: stats
+2022-05-24 14:55:15,654 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:55:15,655 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:55:32,387 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:55:32,387 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:55:48,462 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:55:48,463 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:55:53,953 DEBUG   SenderThread:97410 [sender.py:send():232] send: stats
+2022-05-24 14:56:04,421 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:56:04,422 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:56:21,685 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:56:21,686 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:56:39,453 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:56:39,454 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:56:41,964 DEBUG   SenderThread:97410 [sender.py:send():232] send: stats
+2022-05-24 14:56:55,059 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:56:55,060 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:57:02,497 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: pause
+2022-05-24 14:57:02,498 INFO    HandlerThread:97410 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-24 14:57:04,310 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: resume
+2022-05-24 14:57:04,311 INFO    HandlerThread:97410 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-24 14:57:04,312 DEBUG   SenderThread:97410 [sender.py:send():232] send: stats
+2022-05-24 14:57:10,772 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:57:10,774 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:57:26,435 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:57:26,441 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:57:42,118 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:57:42,119 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:57:57,767 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:57:57,768 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:58:13,417 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 14:58:13,417 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 14:58:14,788 DEBUG   SenderThread:97410 [sender.py:send():232] send: stats
+2022-05-24 14:58:17,835 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: pause
+2022-05-24 14:58:17,841 INFO    HandlerThread:97410 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-24 14:58:18,832 INFO    Thread-7  :97410 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/output.log
+2022-05-24 14:58:23,758 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: resume
+2022-05-24 14:58:23,758 INFO    HandlerThread:97410 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-24 14:58:23,761 DEBUG   SenderThread:97410 [sender.py:send():232] send: telemetry
+2022-05-24 14:58:23,767 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:23,768 DEBUG   SenderThread:97410 [sender.py:send():232] send: telemetry
+2022-05-24 14:58:23,769 DEBUG   SenderThread:97410 [sender.py:send():232] send: exit
+2022-05-24 14:58:23,775 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:23,769 INFO    SenderThread:97410 [sender.py:send_exit():368] handling exit code: 0
+2022-05-24 14:58:23,781 INFO    SenderThread:97410 [sender.py:send_exit():370] handling runtime: 407
+2022-05-24 14:58:23,783 INFO    SenderThread:97410 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-24 14:58:23,784 INFO    SenderThread:97410 [sender.py:send_exit():376] send defer
+2022-05-24 14:58:23,784 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:23,786 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:23,786 DEBUG   SenderThread:97410 [sender.py:send():232] send: stats
+2022-05-24 14:58:23,786 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 14:58:23,786 INFO    HandlerThread:97410 [handler.py:handle_request_defer():164] handle defer: 0
+2022-05-24 14:58:23,786 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: defer
+2022-05-24 14:58:23,786 INFO    SenderThread:97410 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-05-24 14:58:23,786 INFO    SenderThread:97410 [sender.py:transition_state():389] send defer: 1
+2022-05-24 14:58:23,787 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 14:58:23,787 INFO    HandlerThread:97410 [handler.py:handle_request_defer():164] handle defer: 1
+2022-05-24 14:58:23,851 INFO    Thread-7  :97410 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/wandb-summary.json
+2022-05-24 14:58:30,833 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:30,833 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: defer
+2022-05-24 14:58:30,833 INFO    SenderThread:97410 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-05-24 14:58:30,833 INFO    SenderThread:97410 [sender.py:transition_state():389] send defer: 2
+2022-05-24 14:58:30,833 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:30,834 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:30,834 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 14:58:30,834 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:30,835 INFO    HandlerThread:97410 [handler.py:handle_request_defer():164] handle defer: 2
+2022-05-24 14:58:30,835 DEBUG   SenderThread:97410 [sender.py:send():232] send: stats
+2022-05-24 14:58:30,835 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: defer
+2022-05-24 14:58:30,835 INFO    SenderThread:97410 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-05-24 14:58:30,835 INFO    SenderThread:97410 [sender.py:transition_state():389] send defer: 3
+2022-05-24 14:58:30,835 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 14:58:30,835 INFO    HandlerThread:97410 [handler.py:handle_request_defer():164] handle defer: 3
+2022-05-24 14:58:30,836 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: defer
+2022-05-24 14:58:30,836 INFO    SenderThread:97410 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-05-24 14:58:30,836 INFO    SenderThread:97410 [sender.py:transition_state():389] send defer: 4
+2022-05-24 14:58:30,836 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 14:58:30,836 INFO    HandlerThread:97410 [handler.py:handle_request_defer():164] handle defer: 4
+2022-05-24 14:58:30,836 DEBUG   SenderThread:97410 [sender.py:send():232] send: summary
+2022-05-24 14:58:30,836 INFO    SenderThread:97410 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-24 14:58:30,837 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: defer
+2022-05-24 14:58:30,837 INFO    SenderThread:97410 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-05-24 14:58:30,837 INFO    SenderThread:97410 [sender.py:transition_state():389] send defer: 5
+2022-05-24 14:58:30,837 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 14:58:30,837 INFO    HandlerThread:97410 [handler.py:handle_request_defer():164] handle defer: 5
+2022-05-24 14:58:30,837 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: defer
+2022-05-24 14:58:30,837 INFO    SenderThread:97410 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-05-24 14:58:30,871 INFO    Thread-7  :97410 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/wandb-summary.json
+2022-05-24 14:58:30,941 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:33,144 INFO    SenderThread:97410 [sender.py:transition_state():389] send defer: 6
+2022-05-24 14:58:33,145 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:33,145 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 14:58:33,145 INFO    HandlerThread:97410 [handler.py:handle_request_defer():164] handle defer: 6
+2022-05-24 14:58:33,145 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: defer
+2022-05-24 14:58:33,145 INFO    SenderThread:97410 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-05-24 14:58:33,146 INFO    SenderThread:97410 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-05-24 14:58:33,251 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:33,884 INFO    SenderThread:97410 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/config.yaml
+2022-05-24 14:58:33,885 INFO    SenderThread:97410 [dir_watcher.py:finish():342] scan: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files
+2022-05-24 14:58:33,885 INFO    SenderThread:97410 [dir_watcher.py:finish():356] scan save: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/requirements.txt requirements.txt
+2022-05-24 14:58:33,886 INFO    SenderThread:97410 [dir_watcher.py:finish():356] scan save: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/output.log output.log
+2022-05-24 14:58:33,886 INFO    SenderThread:97410 [dir_watcher.py:finish():356] scan save: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/config.yaml config.yaml
+2022-05-24 14:58:33,890 INFO    SenderThread:97410 [dir_watcher.py:finish():356] scan save: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/wandb-summary.json wandb-summary.json
+2022-05-24 14:58:33,892 INFO    SenderThread:97410 [dir_watcher.py:finish():356] scan save: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/conda-environment.yaml conda-environment.yaml
+2022-05-24 14:58:33,896 INFO    SenderThread:97410 [dir_watcher.py:finish():356] scan save: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/wandb-metadata.json wandb-metadata.json
+2022-05-24 14:58:33,899 INFO    SenderThread:97410 [sender.py:transition_state():389] send defer: 7
+2022-05-24 14:58:33,900 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:33,904 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 14:58:33,905 INFO    HandlerThread:97410 [handler.py:handle_request_defer():164] handle defer: 7
+2022-05-24 14:58:33,908 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: defer
+2022-05-24 14:58:33,908 INFO    SenderThread:97410 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-05-24 14:58:33,908 INFO    SenderThread:97410 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-24 14:58:34,019 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:34,019 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:34,126 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:34,126 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:34,232 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:34,232 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:34,339 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:34,339 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:34,443 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:34,443 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:34,556 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:34,558 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:34,660 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:34,660 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:34,763 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:34,763 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:34,869 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:34,869 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:34,975 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:34,975 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:35,080 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:35,080 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:35,183 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:35,183 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:35,288 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:35,288 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:35,394 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:35,394 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:35,497 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:35,498 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:35,602 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:35,602 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:35,656 INFO    Thread-18 :97410 [upload_job.py:push():132] Uploaded file /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/config.yaml
+2022-05-24 14:58:35,663 INFO    Thread-17 :97410 [upload_job.py:push():132] Uploaded file /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/output.log
+2022-05-24 14:58:35,705 INFO    Thread-20 :97410 [upload_job.py:push():132] Uploaded file /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/conda-environment.yaml
+2022-05-24 14:58:35,706 INFO    Thread-16 :97410 [upload_job.py:push():132] Uploaded file /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/requirements.txt
+2022-05-24 14:58:35,708 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:35,708 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:35,725 INFO    Thread-19 :97410 [upload_job.py:push():132] Uploaded file /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/files/wandb-summary.json
+2022-05-24 14:58:35,811 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:35,811 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:35,912 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:35,912 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:35,926 INFO    Thread-6  :97410 [sender.py:transition_state():389] send defer: 8
+2022-05-24 14:58:35,926 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 14:58:35,926 INFO    HandlerThread:97410 [handler.py:handle_request_defer():164] handle defer: 8
+2022-05-24 14:58:35,926 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: defer
+2022-05-24 14:58:35,926 INFO    SenderThread:97410 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-05-24 14:58:36,014 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:36,727 INFO    SenderThread:97410 [sender.py:transition_state():389] send defer: 9
+2022-05-24 14:58:36,728 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:36,728 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 14:58:36,728 INFO    HandlerThread:97410 [handler.py:handle_request_defer():164] handle defer: 9
+2022-05-24 14:58:36,728 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: defer
+2022-05-24 14:58:36,728 INFO    SenderThread:97410 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-05-24 14:58:36,729 INFO    SenderThread:97410 [sender.py:transition_state():389] send defer: 10
+2022-05-24 14:58:36,729 DEBUG   SenderThread:97410 [sender.py:send():232] send: final
+2022-05-24 14:58:36,729 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 14:58:36,729 DEBUG   SenderThread:97410 [sender.py:send():232] send: footer
+2022-05-24 14:58:36,729 INFO    HandlerThread:97410 [handler.py:handle_request_defer():164] handle defer: 10
+2022-05-24 14:58:36,729 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: defer
+2022-05-24 14:58:36,729 INFO    SenderThread:97410 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-05-24 14:58:36,831 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 14:58:36,832 DEBUG   SenderThread:97410 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 14:58:36,832 INFO    SenderThread:97410 [file_pusher.py:join():150] waiting for file pusher
+2022-05-24 14:58:39,812 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: sampled_history
+2022-05-24 14:58:39,812 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: get_summary
+2022-05-24 14:58:39,813 DEBUG   HandlerThread:97410 [handler.py:handle_request():141] handle_request: shutdown
+2022-05-24 14:58:39,813 INFO    HandlerThread:97410 [handler.py:finish():806] shutting down handler
+2022-05-24 14:58:40,706 INFO    SenderThread:97410 [sender.py:finish():1110] shutting down sender
+2022-05-24 14:58:40,706 INFO    SenderThread:97410 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-24 14:58:40,706 INFO    SenderThread:97410 [file_pusher.py:join():150] waiting for file pusher
+2022-05-24 14:58:40,737 INFO    WriterThread:97410 [datastore.py:close():279] close: /Users/zed/workspace/VSCode/SJTU/nlp_proj/notebook/pl/wandb/run-20220524_145132-127z0vwk/run-127z0vwk.wandb
+2022-05-24 14:58:40,738 INFO    MainThread:97410 [internal.py:handle_exit():80] Internal process exited

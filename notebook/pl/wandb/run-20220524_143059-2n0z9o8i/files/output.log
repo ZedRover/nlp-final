@@ -1,0 +1,25 @@
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/torch/distributed/_sharded_tensor/__init__.py:8: DeprecationWarning: torch.distributed._sharded_tensor will be deprecated, use torch.distributed._shard.sharded_tensor instead
+  warnings.warn(
+  | Name      | Type             | Params
+-----------------------------------------------
+0 | l1        | Linear           | 600
+1 | accuracy  | Accuracy         | 0
+2 | calc_loss | CrossEntropyLoss | 0
+-----------------------------------------------
+600       Trainable params
+0         Non-trainable params
+600       Total params
+0.002     Total estimated model params size (MB)
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/flatbuffers/compat.py:19: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/keras/utils/image_utils.py:36: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  'nearest': pil_image.NEAREST,
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/keras/utils/image_utils.py:37: DeprecationWarning: BILINEAR is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BILINEAR instead.
+  'bilinear': pil_image.BILINEAR,
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/keras/utils/image_utils.py:38: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  'bicubic': pil_image.BICUBIC,
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/keras/utils/image_utils.py:39: DeprecationWarning: HAMMING is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.HAMMING instead.
+  'hamming': pil_image.HAMMING,
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/keras/utils/image_utils.py:40: DeprecationWarning: BOX is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BOX instead.
+  'box': pil_image.BOX,
+/opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/keras/utils/image_utils.py:41: DeprecationWarning: LANCZOS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
