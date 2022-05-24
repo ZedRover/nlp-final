@@ -1,0 +1,5 @@
+
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/16
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 16 processes

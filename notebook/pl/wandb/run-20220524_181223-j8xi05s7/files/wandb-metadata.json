@@ -1,0 +1,23 @@
+{
+    "os": "Linux-3.10.0-1062.el7.x86_64-x86_64-with-glibc2.10",
+    "python": "3.8.1",
+    "heartbeatAt": "2022-05-24T10:12:25.937464",
+    "startedAt": "2022-05-24T10:12:23.859663",
+    "docker": null,
+    "gpu": "Tesla V100-SXM3-32GB",
+    "gpu_count": 16,
+    "cpu_count": 96,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/ZedRover/nlp-final.git",
+        "commit": "3fcb74bdf0bfd681077f81ebbdcbc68aea215881"
+    },
+    "email": null,
+    "root": "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final",
+    "host": "vol04.pi.sjtu.edu.cn",
+    "username": "aemwx-user1",
+    "executable": "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/bin/python"
+}

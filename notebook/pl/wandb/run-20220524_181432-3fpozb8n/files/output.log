@@ -1,0 +1,1489 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181447-nzizue4w
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mautumn-surf-41
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/nzizue4w
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181457-81f4d9a2
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mlyric-pine-42
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/81f4d9a2
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181508-2ut5atvc
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mdazzling-bird-43
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2ut5atvc
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181519-2bi17prw
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mdashing-firefly-44
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2bi17prw
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181530-3dnc9dl4
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mdeft-music-45
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3dnc9dl4
+Initializing distributed: GLOBAL_RANK: 4, MEMBER: 5/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181541-1e5c67lf
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mfirm-durian-46
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1e5c67lf
+Initializing distributed: GLOBAL_RANK: 5, MEMBER: 6/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181552-3k8zw5ow
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mhelpful-field-47
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3k8zw5ow
+Initializing distributed: GLOBAL_RANK: 6, MEMBER: 7/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181603-3cjgon0v
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mpretty-leaf-48
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3cjgon0v
+Initializing distributed: GLOBAL_RANK: 7, MEMBER: 8/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181614-9k8om2vd
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mflowing-resonance-49
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/9k8om2vd
+Initializing distributed: GLOBAL_RANK: 8, MEMBER: 9/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181625-pwzvnbjd
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33msweet-grass-50
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/pwzvnbjd
+Initializing distributed: GLOBAL_RANK: 9, MEMBER: 10/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181636-38ka184j
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mvibrant-totem-51
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/38ka184j
+Initializing distributed: GLOBAL_RANK: 10, MEMBER: 11/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181647-3skebalv
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33melated-cloud-52
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3skebalv
+Initializing distributed: GLOBAL_RANK: 11, MEMBER: 12/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181658-3sdndau2
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mvague-grass-53
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3sdndau2
+Initializing distributed: GLOBAL_RANK: 12, MEMBER: 13/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181711-1d7jx07l
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33msmart-aardvark-54
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1d7jx07l
+Initializing distributed: GLOBAL_RANK: 13, MEMBER: 14/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181722-7o0hoddl
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mcosmic-energy-55
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/7o0hoddl
+Initializing distributed: GLOBAL_RANK: 14, MEMBER: 15/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181733-2m0r6c4m
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mstill-wood-56
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2m0r6c4m
+Initializing distributed: GLOBAL_RANK: 15, MEMBER: 16/16
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 16 processes
+----------------------------------------------------------------------------------------------------
+Sanity Checking: 0it [00:00, ?it/s]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 13 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 7 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 10 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 5 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 4 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 9 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 15 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 8 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 14 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 11 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 12 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 6 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+  | Name      | Type             | Params
+-----------------------------------------------
+0 | accuracy  | Accuracy         | 0
+1 | calc_loss | CrossEntropyLoss | 0
+2 | l1        | Linear           | 602
+-----------------------------------------------
+602       Trainable params
+0         Non-trainable params
+602       Total params
+0.002     Total estimated model params size (MB)
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181836-2r9sirwg
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mdifferent-dream-57
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2r9sirwg
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181836-2u0ez2p4
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mcerulean-monkey-58
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2u0ez2p4
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181836-g29ndm8e
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mfrosty-snowball-61
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/g29ndm8e
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181836-3c3ws8h5
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33msunny-frog-59
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3c3ws8h5
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181836-1ra08kj9
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mexalted-lion-61
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1ra08kj9
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181836-33kzc79n
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mwandering-eon-59
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/33kzc79n
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181836-3ica3uu3
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mdazzling-gorge-63
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3ica3uu3
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181836-10y6l4dv
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181836-2987h95q
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181836-24rm375m
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mworthy-brook-65
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/10y6l4dv
+[34m[1mwandb[39m[22m: Syncing run [33mdifferent-darkness-71
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2987h95q
+[34m[1mwandb[39m[22m: Syncing run [33mgenial-fire-68
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/24rm375m
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181836-3jhkaoui
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181836-245pv1up
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Syncing run [33mpeach-water-64
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181836-1l6jnuz1
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3jhkaoui
+[34m[1mwandb[39m[22m: Syncing run [33methereal-wood-68
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1l6jnuz1
+[34m[1mwandb[39m[22m: Syncing run [33mstellar-capybara-67
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/245pv1up
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181836-3u4tf6z7
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33msmart-frog-70
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3u4tf6z7
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181836-13nvidbv
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33munique-pyramid-65
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/13nvidbv
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181836-2zm0e5ar
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33meffortless-universe-72
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2zm0e5ar
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181847-9vexj6lw
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mzany-surf-73
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/9vexj6lw
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181847-2mze0rqd
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mavid-morning-74
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2mze0rqd
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181847-3nf3gnmq
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mjumping-pyramid-75
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3nf3gnmq
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181847-14iv19jg
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33musual-sponge-76
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/14iv19jg
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181847-1qnfo24s
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mpolished-bird-77
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1qnfo24s
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181847-2w478xco
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mglad-puddle-77
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2w478xco
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181847-1oj0hzb2
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mancient-bird-79
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1oj0hzb2
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181847-2cqu70wx
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181847-oypj4p6x
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181847-3108f3b8
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mcerulean-sea-84
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/oypj4p6x
+[34m[1mwandb[39m[22m: Syncing run [33mnoble-yogurt-85
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3108f3b8
+[34m[1mwandb[39m[22m: Syncing run [33mprime-sun-80
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2cqu70wx
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181847-8os9mvm2
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181847-24p13rns
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mdark-donkey-80
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/8os9mvm2
+[34m[1mwandb[39m[22m: Syncing run [33mstilted-voice-82
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/24p13rns
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181847-3j0zdcot
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mwise-elevator-86
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3j0zdcot
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181847-29ggkf57
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mleafy-spaceship-83
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/29ggkf57
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181858-1l4phrj2
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33msummer-smoke-89
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1l4phrj2
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181858-31z8b8o5
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mlogical-sky-90
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/31z8b8o5
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181858-24z11ftz
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181858-1dxj1lpz
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mglamorous-planet-91
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/24z11ftz
+[34m[1mwandb[39m[22m: Syncing run [33mtoasty-cloud-92
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1dxj1lpz
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181858-2p6o7s34
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mglorious-jazz-94
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2p6o7s34
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181858-28arx4a0
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mrose-eon-93
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/28arx4a0
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181858-1bo8druv
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mgolden-cosmos-95
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1bo8druv
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181858-2dj12c2v
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181858-f9a7as5f
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181858-2lmyl19g
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mdenim-firebrand-97
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2dj12c2v
+[34m[1mwandb[39m[22m: Syncing run [33mfresh-tree-96
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2lmyl19g
+[34m[1mwandb[39m[22m: Syncing run [33mjolly-wood-98
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/f9a7as5f
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181858-io5700vp
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mlively-pine-100
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/io5700vp
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181858-3i868e9d
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mfine-wave-99
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3i868e9d
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181859-t7kg7ao4
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mwarm-grass-103
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/t7kg7ao4
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181859-1b4qt6mh
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33msilvery-fire-102
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1b4qt6mh
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181858-135rh1xv
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mjumping-voice-101
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/135rh1xv
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181859-1064z4q6
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33matomic-fog-104
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1064z4q6
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181909-2ss3n895
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33micy-violet-105
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2ss3n895
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181910-pnv2o8oo
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mfresh-feather-106
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/pnv2o8oo
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181910-2jjbvntl
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33measy-shape-107
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2jjbvntl
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181910-kltiu4yb
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mglowing-dawn-109
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/kltiu4yb
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181910-cb2ycu1d
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33meager-yogurt-108
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/cb2ycu1d
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181910-nfrrul5j
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mdark-yogurt-110
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/nfrrul5j
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181910-q2rzkrx2
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mdutiful-oath-111
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/q2rzkrx2
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181910-3pfh3dc9
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33msparkling-glade-112
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3pfh3dc9
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181910-eqs1h61b
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33molive-forest-117
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/eqs1h61b
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181910-2dbnwttf
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181910-2zeelydp
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mstilted-sunset-115
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2dbnwttf
+[34m[1mwandb[39m[22m: Syncing run [33mvibrant-donkey-120
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2zeelydp
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181910-32wvxv3p
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mbrisk-sea-118
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/32wvxv3p
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181910-1wkfvb22
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mastral-totem-114
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1wkfvb22
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181910-2l5ii2k0
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181910-3bxm7a0w
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33meffortless-shape-118
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2l5ii2k0
+[34m[1mwandb[39m[22m: Syncing run [33mworthy-lake-113
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3bxm7a0w
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181910-1qk37wqy
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33musual-terrain-116
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1qk37wqy
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181920-2x9e1zgt
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mdainty-donkey-121
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2x9e1zgt
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181921-2ocvh1kw
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mgentle-voice-122
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2ocvh1kw
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181921-2vjigta9
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33myouthful-dragon-123
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2vjigta9
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181921-2a1qkyex
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mvisionary-paper-124
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2a1qkyex
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181921-1731cvw0
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mdandy-meadow-125
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1731cvw0
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181921-a2t9a174
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mscarlet-field-127
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/a2t9a174
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181921-13r3sp0y
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mleafy-wave-126
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/13r3sp0y
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181921-2vpez59l
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181921-kcosrg5n
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33msolar-smoke-128
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2vpez59l
+[34m[1mwandb[39m[22m: Syncing run [33mdeep-vortex-129
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/kcosrg5n
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181921-dwexbxgz
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181921-3cnbrrqs
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mwild-jazz-130
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/dwexbxgz
+[34m[1mwandb[39m[22m: Syncing run [33mtreasured-star-131
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3cnbrrqs
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181921-3n0nj2h4
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33molive-monkey-132
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3n0nj2h4
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181921-3nf63be1
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mruby-sponge-133
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3nf63be1
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181921-1wwxb9a1
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mefficient-dragon-135
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1wwxb9a1
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181921-oy81h5m9
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mgiddy-dream-134
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/oy81h5m9
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181921-1oqiw13s
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mclear-frog-136
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1oqiw13s
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181931-kitniwd7
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mroyal-monkey-137
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/kitniwd7
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181932-3of6z1ix
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mazure-cloud-138
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3of6z1ix
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181932-gdlqii1v
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mdaily-wind-139
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/gdlqii1v
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181932-3te6rfxd
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mworldly-paper-140
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3te6rfxd
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181933-2ac3coa5
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mrosy-yogurt-145
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2ac3coa5
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181932-2rz2fwlx
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mfanciful-hill-141
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2rz2fwlx
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181933-77ijkehv
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181933-2jbog22y
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mtreasured-wave-142
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/77ijkehv
+[34m[1mwandb[39m[22m: Syncing run [33mcrisp-mountain-143
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2jbog22y
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181933-33oh09tn
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mearthy-armadillo-143
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/33oh09tn
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181933-2kyj17f8
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mamber-firefly-146
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2kyj17f8
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181933-1uxpt8l8
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mvital-morning-147
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1uxpt8l8
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181933-18wv8pdi
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mautumn-fog-148
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/18wv8pdi
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181933-3rybsq4d
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mrare-paper-150
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3rybsq4d
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181933-20lsfzje
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mcopper-fire-149
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/20lsfzje
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181933-22jefpyh
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mrevived-puddle-151
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/22jefpyh
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181933-20z2it4x
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mworldly-cosmos-152
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/20z2it4x
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181942-1jl6adg2
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mefficient-sun-153
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1jl6adg2
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 262, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 237, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 80
+    ogger=wandb_logger,
+    ^
+SyntaxError: invalid syntax
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181943-1fhsywsh
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mdandy-durian-154
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1fhsywsh
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181943-27ri13x0
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mscarlet-gorge-155
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/27ri13x0
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 262, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 237, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 81
+    ogger=wandb_logger,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 262, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 237, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 81
+    ogger=wandb_logger,
+    ^
+SyntaxError: invalid syntax
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181944-2rpjdx3e
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181944-21yzttay
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mlaced-microwave-157
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2rpjdx3e
+[34m[1mwandb[39m[22m: Syncing run [33mglorious-rain-156
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/21yzttay
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181944-15sh7761
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mwobbly-firebrand-158
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/15sh7761
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 262, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 237, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 81
+    ogger=wandb_logger,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 262, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 237, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 81
+    ogger=wandb_logger,
+    ^
+SyntaxError: invalid syntax
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181944-1xoy1qhf
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mserene-gorge-159
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1xoy1qhf
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181944-2sb0hoty
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mcopper-fog-160
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2sb0hoty
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181944-8jq880wr
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Syncing run [33mdenim-flower-160
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/8jq880wr
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181944-ffa6dtzb
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181944-2n67aknn
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mmajor-sound-162
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/ffa6dtzb
+[34m[1mwandb[39m[22m: Syncing run [33mlucky-firefly-164
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2n67aknn
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181944-37mcfo4c
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181944-vxb1xdp4
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mspring-sun-164
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/vxb1xdp4
+[34m[1mwandb[39m[22m: Syncing run [33mworthy-jazz-163
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/37mcfo4c
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181944-28wfigd6
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mglorious-jazz-167
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/28wfigd6
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181944-26zk5r03
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mjumping-violet-166
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/26zk5r03
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 262, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 237, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 81
+    ogger=wandb_logger,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 262, in run_path
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    code, fname = _get_code_from_file(run_name, path_name)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 237, in _get_code_from_file
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    code = compile(f.read(), fname, 'exec')
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 81
+    ogger=wandb_logger,
+    ^
+SyntaxError: invalid syntax
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 262, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 237, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 81
+    ogger=wandb_logger,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 262, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 237, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 81
+    ogger=wandb_logger,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 262, in run_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 262, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 237, in _get_code_from_file
+    code, fname = _get_code_from_file(run_name, path_name)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 237, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 81
+    ogger=wandb_logger,
+    ^
+SyntaxError: invalid syntax
+    code = compile(f.read(), fname, 'exec')
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 81
+    ogger=wandb_logger,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 262, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 237, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 81
+    ogger=wandb_logger,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 262, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 237, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 81
+    ogger=wandb_logger,
+    ^
+SyntaxError: invalid syntax
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181944-2f5a5zsm
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mtrim-smoke-168
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2f5a5zsm
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 262, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 237, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 81
+    ogger=wandb_logger,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 262, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 237, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 81
+    ogger=wandb_logger,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 262, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 237, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 81
+    ogger=wandb_logger,
+    ^
+SyntaxError: invalid syntax
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2b5869962dc0>
+Traceback (most recent call last):
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2aee11d0bdc0>
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2b51fc9c9dc0>
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2ac6bcee4dc0>
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2b11af7d6dc0>
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2b00f7438dc0>
+Traceback (most recent call last):
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2b91a0d32dc0>
+Traceback (most recent call last):
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2acea9f27dc0>
+Traceback (most recent call last):
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2ab3fe4e5dc0>
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2b276dec3dc0>
+Traceback (most recent call last):
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2ad63a803dc0>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+Traceback (most recent call last):
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+Traceback (most recent call last):
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2b9401f5adc0>
+Traceback (most recent call last):
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2b8de9d27dc0>
+Traceback (most recent call last):
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2afa65328dc0>
+Traceback (most recent call last):
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2b6b40146dc0>
+Traceback (most recent call last):
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2accbf957dc0>
+Traceback (most recent call last):
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+    self._shutdown_workers()
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    if self._persistent_workers or self._workers_status[worker_id]:
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    if self._persistent_workers or self._workers_status[worker_id]:
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 263, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 9, in <module>
+    import matplotlib.pyplot as plt
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/matplotlib/pyplot.py", line 49, in <module>
+    import matplotlib.colorbar
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/matplotlib/colorbar.py", line 21, in <module>
+    from matplotlib import _api, collections, cm, colors, contour, ticker
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/matplotlib/contour.py", line 13, in <module>
+    from matplotlib.backend_bases import MouseButton
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/matplotlib/backend_bases.py", line 46, in <module>
+    from matplotlib import (

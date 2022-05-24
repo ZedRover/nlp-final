@@ -1,0 +1,153 @@
+Using 16bit native Automatic Mixed Precision (AMP)
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+Epoch 0:   0%|                                           | 0/305 [00:00<?, ?it/s]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+  | Name      | Type             | Params
+-----------------------------------------------
+0 | accuracy  | Accuracy         | 0
+1 | calc_loss | CrossEntropyLoss | 0
+2 | l1        | Linear           | 602
+-----------------------------------------------
+602       Trainable params
+0         Non-trainable params
+602       Total params
+
+
+
+
+Epoch 0:  90%|████████ | 274/305 [00:09<00:01, 28.77it/s, loss=0.598, v_num=6sbi]
+
+
+
+
+
+Epoch 1:  90%|████████▉ | 274/305 [00:09<00:01, 27.63it/s, loss=0.59, v_num=6sbi]
+
+
+
+
+
+
+
+
+
+
+Epoch 3:  90%|████████ | 274/305 [00:09<00:01, 27.57it/s, loss=0.679, v_num=6sbi]
+
+
+
+
+
+Epoch 4: 100%|██████████| 305/305 [00:10<00:00, 28.02it/s, loss=0.67, v_num=6sbi]
+
+
+
+
+Epoch 5:  90%|████████ | 274/305 [00:09<00:01, 27.86it/s, loss=0.653, v_num=6sbi]
+
+
+
+
+
+Epoch 6:  96%|████████▋| 293/305 [00:10<00:00, 27.75it/s, loss=0.625, v_num=6sbi]
+
+
+
+
+
+
+
+
+
+
+Epoch 8:  90%|████████ | 274/305 [00:09<00:01, 28.06it/s, loss=0.644, v_num=6sbi]
+
+
+
+
+
+Epoch 9:  90%|████████ | 274/305 [00:10<00:01, 27.26it/s, loss=0.704, v_num=6sbi]
+
+
+
+
+
+Epoch 10:  96%|███████▋| 294/305 [00:11<00:00, 25.93it/s, loss=0.581, v_num=6sbi]
+
+
+
+
+
+
+
+
+
+
+Epoch 12:  90%|███████▏| 274/305 [00:10<00:01, 27.08it/s, loss=0.617, v_num=6sbi]
+
+
+
+
+
+Epoch 13:  91%|███████▎| 277/305 [00:10<00:01, 25.75it/s, loss=0.605, v_num=6sbi]
+
+
+
+
+
+Epoch 14:  93%|███████▍| 284/305 [00:11<00:00, 25.59it/s, loss=0.703, v_num=6sbi]
+
+
+
+Epoch 15:  44%|███▌    | 134/305 [00:05<00:07, 24.15it/s, loss=0.651, v_num=6sbi]
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 138, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface_shared.py", line 405, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 170, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 127, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface_shared.py", line 395, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+

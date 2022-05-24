@@ -1,0 +1,9 @@
+
+Initializing distributed: GLOBAL_RANK: 6, MEMBER: 7/16
+LOCAL_RANK: 6 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2ac6bcee4dc0>
+Traceback (most recent call last):
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    if self._persistent_workers or self._workers_status[worker_id]:

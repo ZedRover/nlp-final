@@ -1,0 +1,44 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 4, MEMBER: 5/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 5, MEMBER: 6/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 6, MEMBER: 7/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 7, MEMBER: 8/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 8, MEMBER: 9/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 9, MEMBER: 10/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 10, MEMBER: 11/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 11, MEMBER: 12/16
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 77, in <module>
+    trainer = pl.Trainer(accelerator='auto',
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/utilities/argparse.py", line 339, in insert_env_defaults
+    return fn(self, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 483, in __init__
+    self._accelerator_connector = AcceleratorConnector(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 196, in __init__
+    self._set_parallel_devices_and_init_accelerator()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 528, in _set_parallel_devices_and_init_accelerator
+    self._devices_flag = self.accelerator.parse_devices(self._devices_flag)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/accelerators/gpu.py", line 77, in parse_devices
+    return device_parser.parse_gpu_ids(devices)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/utilities/device_parser.py", line 86, in parse_gpu_ids
+    _check_data_type(gpus)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/utilities/device_parser.py", line 243, in _check_data_type
+    raise MisconfigurationException("Device ID's (GPU/TPU) must be int, string or sequence of ints or None.")

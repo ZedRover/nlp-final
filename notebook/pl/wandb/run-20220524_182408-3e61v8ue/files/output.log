@@ -1,0 +1,93 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 800, in _fit_impl
+    self._data_connector.attach_data(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/data_connector.py", line 160, in attach_data
+    self._copy_trainer_model_properties(model)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/data_connector.py", line 163, in _copy_trainer_model_properties
+    ref_model = self.trainer.lightning_module or model
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 2134, in lightning_module
+    return self.strategy.lightning_module
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/sharded.py", line 105, in lightning_module
+    raise MisconfigurationException(
+pytorch_lightning.utilities.exceptions.MisconfigurationException: `DDPShardedStrategy` requires `fairscale` to be installed. Install it by running `pip install fairscale`.
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 87, in <module>
+    trainer.fit(model,data_module)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 735, in _call_and_handle_interrupt
+    self._call_callback_hooks("on_exception", exception)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1617, in _call_callback_hooks
+    pl_module = self.lightning_module
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 2134, in lightning_module
+    return self.strategy.lightning_module
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/sharded.py", line 105, in lightning_module
+    raise MisconfigurationException(
+pytorch_lightning.utilities.exceptions.MisconfigurationException: `DDPShardedStrategy` requires `fairscale` to be installed. Install it by running `pip install fairscale`.
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 800, in _fit_impl
+    self._data_connector.attach_data(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/data_connector.py", line 160, in attach_data
+    self._copy_trainer_model_properties(model)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/data_connector.py", line 163, in _copy_trainer_model_properties
+    ref_model = self.trainer.lightning_module or model
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 2134, in lightning_module
+    return self.strategy.lightning_module
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/sharded.py", line 105, in lightning_module
+    raise MisconfigurationException(
+pytorch_lightning.utilities.exceptions.MisconfigurationException: `DDPShardedStrategy` requires `fairscale` to be installed. Install it by running `pip install fairscale`.
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 87, in <module>
+    trainer.fit(model,data_module)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 735, in _call_and_handle_interrupt
+    self._call_callback_hooks("on_exception", exception)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1617, in _call_callback_hooks
+    pl_module = self.lightning_module
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 2134, in lightning_module
+    return self.strategy.lightning_module
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/sharded.py", line 105, in lightning_module
+    raise MisconfigurationException(
+pytorch_lightning.utilities.exceptions.MisconfigurationException: `DDPShardedStrategy` requires `fairscale` to be installed. Install it by running `pip install fairscale`.
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 800, in _fit_impl
+    self._data_connector.attach_data(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/data_connector.py", line 160, in attach_data
+    self._copy_trainer_model_properties(model)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/data_connector.py", line 163, in _copy_trainer_model_properties
+    ref_model = self.trainer.lightning_module or model
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 2134, in lightning_module
+    return self.strategy.lightning_module
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/sharded.py", line 105, in lightning_module
+    raise MisconfigurationException(
+pytorch_lightning.utilities.exceptions.MisconfigurationException: `DDPShardedStrategy` requires `fairscale` to be installed. Install it by running `pip install fairscale`.
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 87, in <module>
+    trainer.fit(model,data_module)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 735, in _call_and_handle_interrupt
+    self._call_callback_hooks("on_exception", exception)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1617, in _call_callback_hooks
+    pl_module = self.lightning_module
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 2134, in lightning_module
+    return self.strategy.lightning_module
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/sharded.py", line 105, in lightning_module
+    raise MisconfigurationException(

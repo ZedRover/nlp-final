@@ -1,0 +1,1510 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/16
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 4, MEMBER: 5/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 5, MEMBER: 6/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 6, MEMBER: 7/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 7, MEMBER: 8/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 8, MEMBER: 9/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 9, MEMBER: 10/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 10, MEMBER: 11/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 11, MEMBER: 12/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 12, MEMBER: 13/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/16
+Initializing distributed: GLOBAL_RANK: 13, MEMBER: 14/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 14, MEMBER: 15/16
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 15, MEMBER: 16/16
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 16 processes
+----------------------------------------------------------------------------------------------------
+Sanity Checking: 0it [00:00, ?it/s]
+LOCAL_RANK: 11 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 7 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 9 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 5 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 12 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 8 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 14 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 10 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 4 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 6 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 15 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 13 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+  | Name      | Type             | Params
+-----------------------------------------------
+0 | accuracy  | Accuracy         | 0
+1 | calc_loss | CrossEntropyLoss | 0
+2 | l1        | Linear           | 602
+-----------------------------------------------
+602       Trainable params
+0         Non-trainable params
+602       Total params
+
+
+Epoch 0:   0%|                                                      | 0/10 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 87, in <module>
+    trainer.fit(model,data_module)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1351, in _run_train
+    self.fit_loop.run()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/fit_loop.py", line 268, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 208, in advance
+    batch_output = self.batch_loop.run(batch, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(split_batch, optimizers, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 203, in advance
+    result = self._run_optimization(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 256, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, batch_idx, closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 369, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/lightning.py", line 1644, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/optimizer.py", line 168, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 278, in optimizer_step
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/strategy.py", line 193, in optimizer_step
+    return self.precision_plugin.optimizer_step(model, optimizer, opt_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 155, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/optim/oss.py", line 232, in step
+    loss = self.optim.step(closure=closure, **kwargs)  # type: ignore
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/adam.py", line 66, in step
+    loss = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 140, in _wrap_closure
+    closure_result = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 148, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 134, in closure
+    step_output = self._step_fn()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 427, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *step_kwargs.values())
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 341, in training_step
+    return self.model(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/nn/data_parallel/sharded_ddp.py", line 230, in forward
+    return self.module(*inputs, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/overrides/base.py", line 82, in forward
+    output = self.module.training_step(*inputs, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 28, in training_step
+    self.log('train_acc',self.accuracy(self(x).squeeze(1),y))
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 19, in forward
+    x = self.l1(x)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 87, in <module>
+    trainer.fit(model,data_module)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1351, in _run_train
+    self.fit_loop.run()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/fit_loop.py", line 268, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 208, in advance
+    batch_output = self.batch_loop.run(batch, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(split_batch, optimizers, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 203, in advance
+    result = self._run_optimization(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 256, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, batch_idx, closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 369, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/lightning.py", line 1644, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/optimizer.py", line 168, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 278, in optimizer_step
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/strategy.py", line 193, in optimizer_step
+    return self.precision_plugin.optimizer_step(model, optimizer, opt_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 155, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/optim/oss.py", line 232, in step
+    loss = self.optim.step(closure=closure, **kwargs)  # type: ignore
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/adam.py", line 66, in step
+    loss = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 140, in _wrap_closure
+    closure_result = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 148, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 134, in closure
+    step_output = self._step_fn()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 427, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *step_kwargs.values())
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 341, in training_step
+    return self.model(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/nn/data_parallel/sharded_ddp.py", line 230, in forward
+    return self.module(*inputs, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/overrides/base.py", line 82, in forward
+    output = self.module.training_step(*inputs, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 28, in training_step
+    self.log('train_acc',self.accuracy(self(x).squeeze(1),y))
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 19, in forward
+    x = self.l1(x)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 87, in <module>
+    trainer.fit(model,data_module)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1351, in _run_train
+    self.fit_loop.run()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/fit_loop.py", line 268, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 208, in advance
+    batch_output = self.batch_loop.run(batch, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(split_batch, optimizers, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 203, in advance
+    result = self._run_optimization(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 256, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, batch_idx, closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 369, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/lightning.py", line 1644, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/optimizer.py", line 168, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 278, in optimizer_step
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/strategy.py", line 193, in optimizer_step
+    return self.precision_plugin.optimizer_step(model, optimizer, opt_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 155, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/optim/oss.py", line 232, in step
+    loss = self.optim.step(closure=closure, **kwargs)  # type: ignore
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/adam.py", line 66, in step
+    loss = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 140, in _wrap_closure
+    closure_result = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 148, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 134, in closure
+    step_output = self._step_fn()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 427, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *step_kwargs.values())
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 341, in training_step
+    return self.model(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/nn/data_parallel/sharded_ddp.py", line 230, in forward
+    return self.module(*inputs, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/overrides/base.py", line 82, in forward
+    output = self.module.training_step(*inputs, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 28, in training_step
+    self.log('train_acc',self.accuracy(self(x).squeeze(1),y))
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 19, in forward
+    x = self.l1(x)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 87, in <module>
+    trainer.fit(model,data_module)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1351, in _run_train
+    self.fit_loop.run()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/fit_loop.py", line 268, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 208, in advance
+    batch_output = self.batch_loop.run(batch, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(split_batch, optimizers, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 203, in advance
+    result = self._run_optimization(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 256, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, batch_idx, closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 369, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/lightning.py", line 1644, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/optimizer.py", line 168, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 278, in optimizer_step
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/strategy.py", line 193, in optimizer_step
+    return self.precision_plugin.optimizer_step(model, optimizer, opt_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 155, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/optim/oss.py", line 232, in step
+    loss = self.optim.step(closure=closure, **kwargs)  # type: ignore
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/adam.py", line 66, in step
+    loss = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 140, in _wrap_closure
+    closure_result = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 148, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 134, in closure
+    step_output = self._step_fn()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 427, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *step_kwargs.values())
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 341, in training_step
+    return self.model(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/nn/data_parallel/sharded_ddp.py", line 230, in forward
+    return self.module(*inputs, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/overrides/base.py", line 82, in forward
+    output = self.module.training_step(*inputs, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 28, in training_step
+    self.log('train_acc',self.accuracy(self(x).squeeze(1),y))
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 19, in forward
+    x = self.l1(x)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 87, in <module>
+    trainer.fit(model,data_module)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1351, in _run_train
+    self.fit_loop.run()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/fit_loop.py", line 268, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 208, in advance
+    batch_output = self.batch_loop.run(batch, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(split_batch, optimizers, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 203, in advance
+    result = self._run_optimization(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 256, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, batch_idx, closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 369, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/lightning.py", line 1644, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/optimizer.py", line 168, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 278, in optimizer_step
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/strategy.py", line 193, in optimizer_step
+    return self.precision_plugin.optimizer_step(model, optimizer, opt_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 155, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/optim/oss.py", line 232, in step
+    loss = self.optim.step(closure=closure, **kwargs)  # type: ignore
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/adam.py", line 66, in step
+    loss = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 140, in _wrap_closure
+    closure_result = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 148, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 134, in closure
+    step_output = self._step_fn()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 427, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *step_kwargs.values())
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 341, in training_step
+    return self.model(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/nn/data_parallel/sharded_ddp.py", line 230, in forward
+    return self.module(*inputs, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/overrides/base.py", line 82, in forward
+    output = self.module.training_step(*inputs, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 28, in training_step
+    self.log('train_acc',self.accuracy(self(x).squeeze(1),y))
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 19, in forward
+    x = self.l1(x)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 87, in <module>
+    trainer.fit(model,data_module)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1351, in _run_train
+    self.fit_loop.run()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/fit_loop.py", line 268, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 208, in advance
+    batch_output = self.batch_loop.run(batch, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(split_batch, optimizers, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 203, in advance
+    result = self._run_optimization(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 256, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, batch_idx, closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 369, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/lightning.py", line 1644, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/optimizer.py", line 168, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 278, in optimizer_step
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/strategy.py", line 193, in optimizer_step
+    return self.precision_plugin.optimizer_step(model, optimizer, opt_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 155, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/optim/oss.py", line 232, in step
+    loss = self.optim.step(closure=closure, **kwargs)  # type: ignore
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/adam.py", line 66, in step
+    loss = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 140, in _wrap_closure
+    closure_result = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 148, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 134, in closure
+    step_output = self._step_fn()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 427, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *step_kwargs.values())
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 341, in training_step
+    return self.model(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/nn/data_parallel/sharded_ddp.py", line 230, in forward
+    return self.module(*inputs, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/overrides/base.py", line 82, in forward
+    output = self.module.training_step(*inputs, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 28, in training_step
+    self.log('train_acc',self.accuracy(self(x).squeeze(1),y))
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 19, in forward
+    x = self.l1(x)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 87, in <module>
+    trainer.fit(model,data_module)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1351, in _run_train
+    self.fit_loop.run()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/fit_loop.py", line 268, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 208, in advance
+    batch_output = self.batch_loop.run(batch, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(split_batch, optimizers, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 203, in advance
+    result = self._run_optimization(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 256, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, batch_idx, closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 369, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/lightning.py", line 1644, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/optimizer.py", line 168, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 278, in optimizer_step
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/strategy.py", line 193, in optimizer_step
+    return self.precision_plugin.optimizer_step(model, optimizer, opt_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 155, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/optim/oss.py", line 232, in step
+    loss = self.optim.step(closure=closure, **kwargs)  # type: ignore
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/adam.py", line 66, in step
+    loss = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 140, in _wrap_closure
+    closure_result = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 148, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 134, in closure
+    step_output = self._step_fn()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 427, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *step_kwargs.values())
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 341, in training_step
+    return self.model(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/nn/data_parallel/sharded_ddp.py", line 230, in forward
+    return self.module(*inputs, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/overrides/base.py", line 82, in forward
+    output = self.module.training_step(*inputs, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 28, in training_step
+    self.log('train_acc',self.accuracy(self(x).squeeze(1),y))
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 19, in forward
+    x = self.l1(x)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 87, in <module>
+    trainer.fit(model,data_module)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1351, in _run_train
+    self.fit_loop.run()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/fit_loop.py", line 268, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 208, in advance
+    batch_output = self.batch_loop.run(batch, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(split_batch, optimizers, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 203, in advance
+    result = self._run_optimization(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 256, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, batch_idx, closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 369, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/lightning.py", line 1644, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/optimizer.py", line 168, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 278, in optimizer_step
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/strategy.py", line 193, in optimizer_step
+    return self.precision_plugin.optimizer_step(model, optimizer, opt_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 155, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/optim/oss.py", line 232, in step
+    loss = self.optim.step(closure=closure, **kwargs)  # type: ignore
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/adam.py", line 66, in step
+    loss = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 140, in _wrap_closure
+    closure_result = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 148, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 134, in closure
+    step_output = self._step_fn()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 427, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *step_kwargs.values())
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 341, in training_step
+    return self.model(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/nn/data_parallel/sharded_ddp.py", line 230, in forward
+    return self.module(*inputs, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/overrides/base.py", line 82, in forward
+    output = self.module.training_step(*inputs, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 28, in training_step
+    self.log('train_acc',self.accuracy(self(x).squeeze(1),y))
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 19, in forward
+    x = self.l1(x)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 87, in <module>
+    trainer.fit(model,data_module)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1351, in _run_train
+    self.fit_loop.run()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/fit_loop.py", line 268, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 208, in advance
+    batch_output = self.batch_loop.run(batch, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(split_batch, optimizers, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 203, in advance
+    result = self._run_optimization(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 256, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, batch_idx, closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 369, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/lightning.py", line 1644, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/optimizer.py", line 168, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 278, in optimizer_step
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/strategy.py", line 193, in optimizer_step
+    return self.precision_plugin.optimizer_step(model, optimizer, opt_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 155, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/optim/oss.py", line 232, in step
+    loss = self.optim.step(closure=closure, **kwargs)  # type: ignore
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/adam.py", line 66, in step
+    loss = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 140, in _wrap_closure
+    closure_result = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 148, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 134, in closure
+    step_output = self._step_fn()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 427, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *step_kwargs.values())
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 341, in training_step
+    return self.model(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/nn/data_parallel/sharded_ddp.py", line 230, in forward
+    return self.module(*inputs, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/overrides/base.py", line 82, in forward
+    output = self.module.training_step(*inputs, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 28, in training_step
+    self.log('train_acc',self.accuracy(self(x).squeeze(1),y))
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 19, in forward
+    x = self.l1(x)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "baseline.py", line 87, in <module>
+    trainer.fit(model,data_module)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 719, in _call_and_handle_interrupt
+    return self.strategy.launcher.launch(trainer_fn, *args, trainer=self, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/launchers/subprocess_script.py", line 93, in launch
+    return function(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1351, in _run_train
+    self.fit_loop.run()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/fit_loop.py", line 268, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 208, in advance
+    batch_output = self.batch_loop.run(batch, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(split_batch, optimizers, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 203, in advance
+    result = self._run_optimization(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 256, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, batch_idx, closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 369, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/lightning.py", line 1644, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/optimizer.py", line 168, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 278, in optimizer_step
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/strategy.py", line 193, in optimizer_step
+    return self.precision_plugin.optimizer_step(model, optimizer, opt_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 155, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/optim/oss.py", line 232, in step
+    loss = self.optim.step(closure=closure, **kwargs)  # type: ignore
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/adam.py", line 66, in step
+    loss = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 140, in _wrap_closure
+    closure_result = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 148, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 134, in closure
+    step_output = self._step_fn()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 427, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *step_kwargs.values())
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 341, in training_step
+    return self.model(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/nn/data_parallel/sharded_ddp.py", line 230, in forward
+    return self.module(*inputs, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/overrides/base.py", line 82, in forward
+    output = self.module.training_step(*inputs, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 28, in training_step
+    self.log('train_acc',self.accuracy(self(x).squeeze(1),y))
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 19, in forward
+    x = self.l1(x)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 87, in <module>
+    trainer.fit(model,data_module)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1351, in _run_train
+    self.fit_loop.run()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/fit_loop.py", line 268, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 208, in advance
+    batch_output = self.batch_loop.run(batch, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(split_batch, optimizers, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 203, in advance
+    result = self._run_optimization(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 256, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, batch_idx, closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 369, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/lightning.py", line 1644, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/optimizer.py", line 168, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 278, in optimizer_step
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/strategy.py", line 193, in optimizer_step
+    return self.precision_plugin.optimizer_step(model, optimizer, opt_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 155, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/optim/oss.py", line 232, in step
+    loss = self.optim.step(closure=closure, **kwargs)  # type: ignore
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/adam.py", line 66, in step
+    loss = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 140, in _wrap_closure
+    closure_result = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 148, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 134, in closure
+    step_output = self._step_fn()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 427, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *step_kwargs.values())
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 341, in training_step
+    return self.model(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/nn/data_parallel/sharded_ddp.py", line 230, in forward
+    return self.module(*inputs, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/overrides/base.py", line 82, in forward
+    output = self.module.training_step(*inputs, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 28, in training_step
+    self.log('train_acc',self.accuracy(self(x).squeeze(1),y))
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 19, in forward
+    x = self.l1(x)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 87, in <module>
+    trainer.fit(model,data_module)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1351, in _run_train
+    self.fit_loop.run()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/fit_loop.py", line 268, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 208, in advance
+    batch_output = self.batch_loop.run(batch, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(split_batch, optimizers, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 203, in advance
+    result = self._run_optimization(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 256, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, batch_idx, closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 369, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/lightning.py", line 1644, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/optimizer.py", line 168, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 278, in optimizer_step
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/strategy.py", line 193, in optimizer_step
+    return self.precision_plugin.optimizer_step(model, optimizer, opt_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 155, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/optim/oss.py", line 232, in step
+    loss = self.optim.step(closure=closure, **kwargs)  # type: ignore
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/adam.py", line 66, in step
+    loss = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 140, in _wrap_closure
+    closure_result = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 148, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 134, in closure
+    step_output = self._step_fn()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 427, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *step_kwargs.values())
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 341, in training_step
+    return self.model(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/nn/data_parallel/sharded_ddp.py", line 230, in forward
+    return self.module(*inputs, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/overrides/base.py", line 82, in forward
+    output = self.module.training_step(*inputs, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 28, in training_step
+    self.log('train_acc',self.accuracy(self(x).squeeze(1),y))
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 19, in forward
+    x = self.l1(x)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 87, in <module>
+    trainer.fit(model,data_module)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1351, in _run_train
+    self.fit_loop.run()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/fit_loop.py", line 268, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 208, in advance
+    batch_output = self.batch_loop.run(batch, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(split_batch, optimizers, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 203, in advance
+    result = self._run_optimization(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 256, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, batch_idx, closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 369, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/lightning.py", line 1644, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/optimizer.py", line 168, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 278, in optimizer_step
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/strategy.py", line 193, in optimizer_step
+    return self.precision_plugin.optimizer_step(model, optimizer, opt_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 155, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/optim/oss.py", line 232, in step
+    loss = self.optim.step(closure=closure, **kwargs)  # type: ignore
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/adam.py", line 66, in step
+    loss = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 140, in _wrap_closure
+    closure_result = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 148, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 134, in closure
+    step_output = self._step_fn()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 427, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *step_kwargs.values())
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 341, in training_step
+    return self.model(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/nn/data_parallel/sharded_ddp.py", line 230, in forward
+    return self.module(*inputs, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/overrides/base.py", line 82, in forward
+    output = self.module.training_step(*inputs, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 28, in training_step
+    self.log('train_acc',self.accuracy(self(x).squeeze(1),y))
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 19, in forward
+    x = self.l1(x)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 87, in <module>
+    trainer.fit(model,data_module)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1351, in _run_train
+    self.fit_loop.run()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/fit_loop.py", line 268, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 208, in advance
+    batch_output = self.batch_loop.run(batch, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(split_batch, optimizers, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 203, in advance
+    result = self._run_optimization(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 256, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, batch_idx, closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 369, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/lightning.py", line 1644, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/optimizer.py", line 168, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 278, in optimizer_step
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/strategy.py", line 193, in optimizer_step
+    return self.precision_plugin.optimizer_step(model, optimizer, opt_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 155, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/optim/oss.py", line 232, in step
+    loss = self.optim.step(closure=closure, **kwargs)  # type: ignore
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/adam.py", line 66, in step
+    loss = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 140, in _wrap_closure
+    closure_result = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 148, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 134, in closure
+    step_output = self._step_fn()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 427, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *step_kwargs.values())
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 341, in training_step
+    return self.model(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/nn/data_parallel/sharded_ddp.py", line 230, in forward
+    return self.module(*inputs, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/overrides/base.py", line 82, in forward
+    output = self.module.training_step(*inputs, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 28, in training_step
+    self.log('train_acc',self.accuracy(self(x).squeeze(1),y))
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 19, in forward
+    x = self.l1(x)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 87, in <module>
+    trainer.fit(model,data_module)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1351, in _run_train
+    self.fit_loop.run()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/fit_loop.py", line 268, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 208, in advance
+    batch_output = self.batch_loop.run(batch, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(split_batch, optimizers, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 203, in advance
+    result = self._run_optimization(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 256, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, batch_idx, closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 369, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/lightning.py", line 1644, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/optimizer.py", line 168, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 278, in optimizer_step
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/strategy.py", line 193, in optimizer_step
+    return self.precision_plugin.optimizer_step(model, optimizer, opt_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 155, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/optim/oss.py", line 232, in step
+    loss = self.optim.step(closure=closure, **kwargs)  # type: ignore
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/adam.py", line 66, in step
+    loss = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 140, in _wrap_closure
+    closure_result = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 148, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 134, in closure
+    step_output = self._step_fn()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 427, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *step_kwargs.values())
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 341, in training_step
+    return self.model(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/nn/data_parallel/sharded_ddp.py", line 230, in forward
+    return self.module(*inputs, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/overrides/base.py", line 82, in forward
+    output = self.module.training_step(*inputs, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 28, in training_step
+    self.log('train_acc',self.accuracy(self(x).squeeze(1),y))
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 19, in forward
+    x = self.l1(x)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 87, in <module>
+    trainer.fit(model,data_module)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1351, in _run_train
+    self.fit_loop.run()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/fit_loop.py", line 268, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 208, in advance
+    batch_output = self.batch_loop.run(batch, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(split_batch, optimizers, batch_idx)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 203, in advance
+    result = self._run_optimization(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 256, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, batch_idx, closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 369, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/lightning.py", line 1644, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/core/optimizer.py", line 168, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 278, in optimizer_step
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/strategy.py", line 193, in optimizer_step
+    return self.precision_plugin.optimizer_step(model, optimizer, opt_idx, closure, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 155, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/optim/oss.py", line 232, in step
+    loss = self.optim.step(closure=closure, **kwargs)  # type: ignore
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/optim/adam.py", line 66, in step
+    loss = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 140, in _wrap_closure
+    closure_result = closure()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 148, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 134, in closure
+    step_output = self._step_fn()
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 427, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *step_kwargs.values())
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/strategies/ddp.py", line 341, in training_step
+    return self.model(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/fairscale/nn/data_parallel/sharded_ddp.py", line 230, in forward
+    return self.module(*inputs, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/overrides/base.py", line 82, in forward
+    output = self.module.training_step(*inputs, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 28, in training_step
+    self.log('train_acc',self.accuracy(self(x).squeeze(1),y))
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 19, in forward
+    x = self.l1(x)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0

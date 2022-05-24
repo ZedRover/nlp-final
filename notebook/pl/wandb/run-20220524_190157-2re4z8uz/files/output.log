@@ -1,0 +1,87 @@
+Using 16bit native Automatic Mixed Precision (AMP)
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+Sanity Checking: 0it [00:00, ?it/s]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+  | Name      | Type             | Params
+
+
+
+Epoch 0:  92%|██████████▏| 71/77 [00:06<00:00, 10.69it/s, loss=0.595, v_num=z8uz]
+
+
+
+
+
+
+Epoch 2:  90%|█████████▊ | 69/77 [00:05<00:00, 11.60it/s, loss=0.593, v_num=z8uz]
+
+
+
+Epoch 3:  90%|█████████▊ | 69/77 [00:05<00:00, 11.81it/s, loss=0.583, v_num=z8uz]
+
+
+
+Epoch 4:  90%|█████████▊ | 69/77 [00:05<00:00, 11.59it/s, loss=0.595, v_num=z8uz]
+
+
+
+
+
+
+
+
+
+
+Epoch 7:  90%|█████████▊ | 69/77 [00:05<00:00, 11.81it/s, loss=0.608, v_num=z8uz]
+
+
+
+Epoch 8:  99%|██████████▊| 76/77 [00:07<00:00, 10.44it/s, loss=0.597, v_num=z8uz]
+
+
+Epoch 9:  90%|█████████▊ | 69/77 [00:05<00:00, 12.25it/s, loss=0.597, v_num=z8uz]
+
+
+
+Epoch 10:  90%|████████▉ | 69/77 [00:05<00:00, 12.32it/s, loss=0.594, v_num=z8uz]
+
+
+
+Epoch 11: 100%|██████████| 77/77 [00:07<00:00, 10.82it/s, loss=0.605, v_num=z8uz]
+Validation DataLoader 0: 100%|█████████████████████| 8/8 [00:00<00:00, 18.16it/s]
+0 | accuracy  | Accuracy         | 0
+1 | calc_loss | CrossEntropyLoss | 0
+2 | l1        | Linear           | 602
+-----------------------------------------------
+602       Trainable params
+0         Non-trainable params
+602       Total params
+0.001     Total estimated model params size (MB)
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+
+Testing DataLoader 0: 100%|██████████████████████| 19/19 [00:01<00:00, 16.66it/s]
+─────────────────────────────────────────────────────────────────────────────────
+       Test metric             DataLoader 0
+─────────────────────────────────────────────────────────────────────────────────
+        test_acc             0.664606511592865
+        test_loss           0.6033715605735779
+─────────────────────────────────────────────────────────────────────────────────

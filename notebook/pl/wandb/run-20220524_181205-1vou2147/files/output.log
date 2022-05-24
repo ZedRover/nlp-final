@@ -1,0 +1,160 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181223-1qbkyqms
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mlaced-grass-24
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/1qbkyqms
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/16
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181223-inkv3rmi
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33molive-fog-25
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/inkv3rmi
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/16
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181223-2munr87g
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33munique-dawn-26
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2munr87g
+Initializing distributed: GLOBAL_RANK: 7, MEMBER: 8/16
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181223-bqqxyv60
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mgraceful-disco-27
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/bqqxyv60
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181223-j8xi05s7
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+Initializing distributed: GLOBAL_RANK: 13, MEMBER: 14/16
+[34m[1mwandb[39m[22m: Syncing run [33measy-cosmos-27
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/j8xi05s7
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181223-3jvsmrpn
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mradiant-elevator-27
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3jvsmrpn
+Initializing distributed: GLOBAL_RANK: 12, MEMBER: 13/16
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181223-3jpx93ce
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mlegendary-firefly-30
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3jpx93ce
+Initializing distributed: GLOBAL_RANK: 10, MEMBER: 11/16
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/16
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181223-ggcbkr1p
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33msage-terrain-31
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/ggcbkr1p
+Initializing distributed: GLOBAL_RANK: 11, MEMBER: 12/16
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181223-lpjeb1m3
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mazure-firebrand-32
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/lpjeb1m3
+Initializing distributed: GLOBAL_RANK: 6, MEMBER: 7/16
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181223-3eze3clx
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mglamorous-cosmos-34
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3eze3clx
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181223-3ag986g3
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mplayful-deluge-33
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3ag986g3
+Initializing distributed: GLOBAL_RANK: 5, MEMBER: 6/16
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/16
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181224-3px520c0
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mfirm-sound-36
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3px520c0
+Initializing distributed: GLOBAL_RANK: 9, MEMBER: 10/16
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181224-5uptzb7z
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mcolorful-firefly-35
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/5uptzb7z
+Initializing distributed: GLOBAL_RANK: 15, MEMBER: 16/16
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181224-2i9uhr5e
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mrural-dream-37
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/2i9uhr5e
+Initializing distributed: GLOBAL_RANK: 8, MEMBER: 9/16
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181224-v48wmgrc
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mefficient-lion-38
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/v48wmgrc
+Initializing distributed: GLOBAL_RANK: 4, MEMBER: 5/16
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220524_181223-3s7nq5hx
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mfearless-fire-39
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3s7nq5hx
+Initializing distributed: GLOBAL_RANK: 14, MEMBER: 15/16
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 16 processes
+----------------------------------------------------------------------------------------------------
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [31m(failed 1).[39m Press Control-C to abort syncing.
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [31m(failed 1).[39m Press Control-C to abort syncing.
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [31m(failed 1).[39m Press Control-C to abort syncing.
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [31m(failed 1).[39m Press Control-C to abort syncing.
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [31m(failed 1).[39m Press Control-C to abort syncing.
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [31m(failed 1).[39m Press Control-C to abort syncing.
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [31m(failed 1).[39m Press Control-C to abort syncing.
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [31m(failed 1).[39m Press Control-C to abort syncing.
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [31m(failed 1).[39m Press Control-C to abort syncing.
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [31m(failed 1).[39m Press Control-C to abort syncing.
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [31m(failed 1).[39m Press Control-C to abort syncing.
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [31m(failed 1).[39m Press Control-C to abort syncing.
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [31m(failed 1).[39m Press Control-C to abort syncing.
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [31m(failed 1).[39m Press Control-C to abort syncing.
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [31m(failed 1).[39m Press Control-C to abort syncing.
+[34m[1mwandb[39m[22m: \ 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)
+[34m[1mwandb[39m[22m: \ 0.004 MB of 0.004 MB uploaded (0.000 MB deduped)
+[34m[1mwandb[39m[22m: \ 0.004 MB of 0.004 MB uploaded (0.000 MB deduped)
+[34m[1mwandb[39m[22m:
+[34m[1mwandb[39m[22m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+[34m[1mwandb[39m[22m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1172, in _run
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1172, in _run
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1172, in _run

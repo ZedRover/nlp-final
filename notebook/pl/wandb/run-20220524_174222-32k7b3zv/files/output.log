@@ -1,0 +1,30 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+  | Name      | Type             | Params
+-----------------------------------------------
+0 | l1        | Linear           | 600
+1 | accuracy  | Accuracy         | 0
+2 | calc_loss | CrossEntropyLoss | 0
+-----------------------------------------------
+600       Trainable params
+0         Non-trainable params
+600       Total params
+0.002     Total estimated model params size (MB)
+
+
+Epoch 0:  90%|████████████████████████████████████▋    | 137/153 [00:04<00:00, 27.53it/s, loss=0.594, v_num=b3zv]
+
+Epoch 1:  90%|████████████████████████████████████▋    | 137/153 [00:05<00:00, 24.12it/s, loss=0.594, v_num=b3zv]
+
+Validation: 0it [00:00, ?it/s]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Testing DataLoader 0: 100%|██████████████████████████████████████████████████████| 38/38 [00:00<00:00, 89.47it/s]
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+       Test metric             DataLoader 0
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+        test_acc             0.683868944644928
+        test_loss           0.5860986709594727
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────
