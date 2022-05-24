@@ -75,7 +75,7 @@ if __name__=='__main__':
         mode='min',
         save_last=True
     )
-    trainer = pl.Trainer(accelerator='mps', max_epochs=2,
+    trainer = pl.Trainer(accelerator='auto', max_epochs=2,
                         callbacks=[checkpoint_callback],
                         check_val_every_n_epoch=1)
     model = BaseLineModel(lr=0.01)

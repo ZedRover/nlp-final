@@ -1,5 +1,6 @@
 data
-!data/*.pth
+!data/embedding_dict_data0.pth
+!data/embedding_dict_data1.pth
 **/__pycache__
 **/_DS_Store
 
