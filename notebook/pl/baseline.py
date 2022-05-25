@@ -1,5 +1,6 @@
 import sys
-sys.path.append('/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final')
+import os
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "../..")))
 import numpy as np
 import pandas as pd
 import config
