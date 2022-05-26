@@ -1,3 +1,10 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "../..")))
+
+from pytorch_lightning.loggers import WandbLogger
+import wandb
+import config
 import pandas as pd
 import numpy as np
 from tqdm.auto import tqdm
@@ -11,56 +18,42 @@ import pytorch_lightning as pl
 from torchmetrics import accuracy, f1, auroc
 from pytorch_lightning.callbacks import ModelCheckpoint, EarlyStopping
 from pytorch_lightning.loggers import TensorBoardLogger
-import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "../..")))
-import config
-import wandb
-from pytorch_lightning.loggers import WandbLogger
+
 
 RANDOM_SEED = 42
 pl.seed_everything(RANDOM_SEED)
 wandb.login()
-wandb_logger = WandbLogger(project='baseline')
+wandb_logger = WandbLogger(project='bert-test')
 
-df_pos = pd.read_excel(config.DATA_DIR+'/女权无标点.xlsx',index_col=0)
-df_neg = pd.read_excel(config.DATA_DIR+'/非女权无标点.xlsx',index_col=0)
+df_pos = pd.read_excel(config.DATA_DIR+'/女权无标点.xlsx', index_col=0)
+df_neg = pd.read_excel(config.DATA_DIR+'/非女权无标点.xlsx', index_col=0)
 
 df_pos['label'] = 1
 df_neg['label'] = 0
-df = pd.concat([df_pos,df_neg],axis=0)
-df.rename({0:'comment_text'},inplace=True,axis=1)
+df = pd.concat([df_pos, df_neg], axis=0)
+df.rename({0: 'comment_text'}, inplace=True, axis=1)
+
 BERT_MODEL_NAME = 'bert-base-cased'
 tokenizer = BertTokenizer.from_pretrained(BERT_MODEL_NAME)
 
-df_insmp,df_test = train_test_split(df,test_size=0.2,shuffle=True)
-df_train,df_val = train_test_split(df_insmp,test_size=0.1,shuffle=False)
+df_insmp, df_test = train_test_split(df, test_size=0.2, shuffle=True)
+df_train, df_val = train_test_split(df_insmp, test_size=0.1, shuffle=False)
 
-ERT_MODEL_NAME = 'bert-base-cased'
-tokenizer = BertTokenizer.from_pretrained(BERT_MODEL_NAME)
 
-token_counts = []
-for _, row in df_train.iterrows():
-    token_count = len(tokenizer.encode(
-    row.comment_text,
-    max_length=512,
-    truncation=True
-    ))
-    token_counts.append(token_count)
-
-  
 class ToxicCommentsDataset(Dataset):
     def __init__(
-    self,
-    data: pd.DataFrame,
-    tokenizer: BertTokenizer,
-    max_token_len: int = 128,
+        self,
+        data: pd.DataFrame,
+        tokenizer: BertTokenizer,
+        max_token_len: int = 128,
     ):
         self.tokenizer = tokenizer
         self.data = data
         self.max_token_len = max_token_len
+
     def __len__(self):
         return len(self.data)
+
     def __getitem__(self, index: int):
         data_row = self.data.iloc[index]
         comment_text = data_row.comment_text
@@ -81,7 +74,8 @@ class ToxicCommentsDataset(Dataset):
             attention_mask=encoding["attention_mask"].flatten(),
             labels=torch.FloatTensor(labels)
         )
-        
+
+
 class ToxicCommentDataModule(pl.LightningDataModule):
 
     def __init__(self, train_df, test_df, tokenizer, batch_size=8, max_token_len=128):
@@ -115,35 +109,37 @@ class ToxicCommentDataModule(pl.LightningDataModule):
 
     def val_dataloader(self):
         return DataLoader(
-        self.test_dataset,
-        batch_size=self.batch_size,
-        num_workers=2
-    )
+            self.test_dataset,
+            batch_size=self.batch_size,
+            num_workers=2
+        )
 
     def test_dataloader(self):
         return DataLoader(
-        self.test_dataset,
-        batch_size=self.batch_size,
-        num_workers=2
-    )
-        
-        
+            self.test_dataset,
+            batch_size=self.batch_size,
+            num_workers=2
+        )
+
+
 N_EPOCHS = 10
 BATCH_SIZE = 12
 MAX_TOKEN_COUNT = 512
 data_module = ToxicCommentDataModule(
-  df_train,
-  df_val,
-  tokenizer,
-  batch_size=BATCH_SIZE,
-  max_token_len=MAX_TOKEN_COUNT
+    df_train,
+    df_val,
+    tokenizer,
+    batch_size=BATCH_SIZE,
+    max_token_len=MAX_TOKEN_COUNT
 )
+
 
 class ToxicCommentTagger(pl.LightningModule):
 
     def __init__(self, n_classes: int, n_training_steps=None, n_warmup_steps=None):
         super().__init__()
-        self.bert = BertModel.from_pretrained(BERT_MODEL_NAME, return_dict=True)
+        self.bert = BertModel.from_pretrained(
+            BERT_MODEL_NAME, return_dict=True)
         self.classifier = nn.Linear(self.bert.config.hidden_size, n_classes)
         self.n_training_steps = n_training_steps
         self.n_warmup_steps = n_warmup_steps
@@ -152,7 +148,7 @@ class ToxicCommentTagger(pl.LightningModule):
     def forward(self, input_ids, attention_mask, labels=None):
         output = self.bert(input_ids, attention_mask=attention_mask)
         output = self.classifier(output.pooler_output)
-        output = torch.sigmoid(output)    
+        output = torch.sigmoid(output)
         loss = 0
         if labels is not None:
             loss = self.criterion(output, labels)
@@ -205,37 +201,37 @@ class ToxicCommentTagger(pl.LightningModule):
         return dict(
             optimizer=optimizer,
             lr_scheduler=dict(
-            scheduler=scheduler,
-            interval='step'
+                scheduler=scheduler,
+                interval='step'
             )
         )
-        
-        
-steps_per_epoch=len(df_train) // BATCH_SIZE
+
+
+steps_per_epoch = len(df_train) // BATCH_SIZE
 total_training_steps = steps_per_epoch * N_EPOCHS
 warmup_steps = total_training_steps // 5
 warmup_steps, total_training_steps
 
 model = ToxicCommentTagger(
-  n_classes=2,
-  n_warmup_steps=warmup_steps,
-  n_training_steps=total_training_steps 
+    n_classes=2,
+    n_warmup_steps=warmup_steps,
+    n_training_steps=total_training_steps
 )
 checkpoint_callback = ModelCheckpoint(
-  dirpath="checkpoints",
-  filename="best-checkpoint",
-  save_top_k=1,
-  verbose=True,
-  monitor="val_loss",
-  mode="min"
+    dirpath="checkpoints",
+    filename="best-checkpoint",
+    save_top_k=1,
+    verbose=True,
+    monitor="val_loss",
+    mode="min"
 )
 early_stopping_callback = EarlyStopping(monitor='val_loss', patience=2)
 trainer = pl.Trainer(
-  logger=wandb_logger,
-  checkpoint_callback=checkpoint_callback,
-  callbacks=[early_stopping_callback],
-  max_epochs=N_EPOCHS,
-  gpus=1,
-  progress_bar_refresh_rate=30
+    logger=wandb_logger,
+    checkpoint_callback=checkpoint_callback,
+    callbacks=[early_stopping_callback],
+    max_epochs=N_EPOCHS,
+    gpus=1,
+    progress_bar_refresh_rate=30
 )
 trainer.fit(model, data_module)
