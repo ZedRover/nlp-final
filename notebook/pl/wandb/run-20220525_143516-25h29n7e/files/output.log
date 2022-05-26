@@ -1,0 +1,11 @@
+Using 16bit native Automatic Mixed Precision (AMP)
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Traceback (most recent call last):
+  File "/dssg/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/cnn.py", line 94, in <module>
+    model = CNNModel(lr=0.01)
+  File "/dssg/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 63, in __init__
+    self.f1 = nn.Linear(300,)
+TypeError: __init__() missing 1 required positional argument: 'out_features'

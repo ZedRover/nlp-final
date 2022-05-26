@@ -1,0 +1,24 @@
+{
+    "os": "Linux-4.18.0-240.el8.x86_64-x86_64-with-glibc2.28",
+    "python": "3.9.5",
+    "heartbeatAt": "2022-05-25T06:46:10.824583",
+    "startedAt": "2022-05-25T06:46:08.713823",
+    "docker": null,
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "gpu_count": 4,
+    "cpu_count": 64,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/dssg/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/cnn.py",
+    "codePath": "notebook/pl/cnn.py",
+    "git": {
+        "remote": "git@github.com:ZedRover/nlp-final.git",
+        "commit": "9a84e2d8c82abc766b77bfc329d4ab2bff89ecb4"
+    },
+    "email": "zed31501591@gmail.com",
+    "root": "/dssg/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final",
+    "host": "gpu09.pi.sjtu.edu.cn",
+    "username": "aemwx-user1",
+    "executable": "/dssg/opt/icelake/linux-centos8-icelake/gcc-11.2.0/miniconda3-4.10.3-f5dsmdmzng2ck6a4otduqwosi22kacfl/bin/python"
+}

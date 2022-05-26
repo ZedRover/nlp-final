@@ -1,5 +1,6 @@
 import sys
-sys.path.append('/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final')
+import os
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "../..")))
 import numpy as np
 import pandas as pd
 import config
@@ -19,7 +20,8 @@ import warnings
 warnings.filterwarnings('ignore')
 from models.model import *
 gpu = False
-random.seed(999)
+RANDOM_SEED=999
+pl.seed_everything(RANDOM_SEED)
 
 wandb.login()
 wandb_logger = WandbLogger(project='cnn')
@@ -87,7 +89,7 @@ if __name__=='__main__':
                         logger=wandb_logger,
                         strategy="fsdp",
                         check_val_every_n_epoch=1,
-                        devices=6,
+                        devices=2,
                         precision=16,
                         )
     model = CNNModel(lr=0.01)

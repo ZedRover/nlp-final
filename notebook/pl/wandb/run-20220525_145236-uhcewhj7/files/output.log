@@ -1,0 +1,123 @@
+Using 16bit native Automatic Mixed Precision (AMP)
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/2
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/2
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 2 processes
+----------------------------------------------------------------------------------------------------
+Sanity Checking: 0it [00:00, ?it/s]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+  | Name      | Type              | Params
+------------------------------------------------
+0 | accuracy  | Accuracy          | 0
+1 | calc_loss | BCEWithLogitsLoss | 0
+2 | conv1     | Conv1d            | 6.2 K
+3 | maxpool1  | MaxPool1d         | 0
+4 | conv2     | Conv1d            | 200
+5 | maxpool2  | MaxPool1d         | 0
+6 | conv3     | Conv1d            | 200
+7 | maxpool3  | MaxPool1d         | 0
+8 | out       | Linear            | 1.0 K
+9 | sig       | Sigmoid           | 0
+------------------------------------------------
+7.6 K     Trainable params
+0         Non-trainable params
+7.6 K     Total params
+Sanity Checking DataLoader 0:   0%|                        | 0/2 [00:00<?, ?it/s]==============x=========== torch.Size([256, 300])
+==============x=========== torch.Size([256, 300])
+Traceback (most recent call last):
+  File "/dssg/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/cnn.py", line 96, in <module>
+    trainer.fit(model,data_module)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 719, in _call_and_handle_interrupt
+    return self.strategy.launcher.launch(trainer_fn, *args, trainer=self, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/strategies/launchers/subprocess_script.py", line 93, in launch
+    return function(*args, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1343, in _run_train
+    self._run_sanity_check()
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1411, in _run_sanity_check
+    val_loop.run()
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 127, in advance
+    output = self._evaluation_step(**kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 222, in _evaluation_step
+    output = self.trainer._call_strategy_hook("validation_step", *kwargs.values())
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/strategies/fully_sharded.py", line 197, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 101, in validation_step
+    x = self(x).squeeze(1)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 78, in forward
+    x2 = self.conv2(x)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 302, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 298, in _conv_forward
+    return F.conv1d(input, weight, bias, self.stride,
+RuntimeError: Given groups=1, weight of size [8, 8, 3], expected input[1, 256, 300] to have 8 channels, but got 256 channels instead
+Traceback (most recent call last):
+  File "/dssg/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/cnn.py", line 96, in <module>
+    trainer.fit(model,data_module)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1343, in _run_train
+    self._run_sanity_check()
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1411, in _run_sanity_check
+    val_loop.run()
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 127, in advance
+    output = self._evaluation_step(**kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 222, in _evaluation_step
+    output = self.trainer._call_strategy_hook("validation_step", *kwargs.values())
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/strategies/fully_sharded.py", line 197, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 101, in validation_step
+    x = self(x).squeeze(1)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/models/model.py", line 78, in forward
+    x2 = self.conv2(x)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 302, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 298, in _conv_forward
+    return F.conv1d(input, weight, bias, self.stride,
+RuntimeError: Given groups=1, weight of size [8, 8, 3], expected input[1, 256, 300] to have 8 channels, but got 256 channels instead

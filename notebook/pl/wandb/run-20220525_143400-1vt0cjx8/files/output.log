@@ -1,0 +1,15 @@
+Using 16bit native Automatic Mixed Precision (AMP)
+Traceback (most recent call last):
+  File "/dssg/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/cnn.py", line 83, in <module>
+    trainer = pl.Trainer(accelerator='auto',
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/utilities/argparse.py", line 339, in insert_env_defaults
+    return fn(self, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 483, in __init__
+    self._accelerator_connector = AcceleratorConnector(
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 209, in __init__
+    self.precision_plugin = self._check_and_init_precision()
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 708, in _check_and_init_precision
+    return FullyShardedNativeMixedPrecisionPlugin(self._precision_flag, device)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/plugins/precision/sharded_native_amp.py", line 34, in __init__
+    raise MisconfigurationException(
+pytorch_lightning.utilities.exceptions.MisconfigurationException: You have asked for sharded AMP but you have not installed it. Install `fairscale` using this guide: https://https://github.com/facebookresearch/fairscale

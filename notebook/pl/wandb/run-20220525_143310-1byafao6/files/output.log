@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/dssg/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/cnn.py", line 83, in <module>
+    trainer = pl.Trainer(accelerator='auto',
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/utilities/argparse.py", line 339, in insert_env_defaults
+    return fn(self, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 483, in __init__
+    self._accelerator_connector = AcceleratorConnector(
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 196, in __init__
+    self._set_parallel_devices_and_init_accelerator()
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 528, in _set_parallel_devices_and_init_accelerator
+    self._devices_flag = self.accelerator.parse_devices(self._devices_flag)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/accelerators/gpu.py", line 77, in parse_devices
+    return device_parser.parse_gpu_ids(devices)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/utilities/device_parser.py", line 105, in parse_gpu_ids
+    return _sanitize_gpu_ids(gpus)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/utilities/device_parser.py", line 187, in _sanitize_gpu_ids
+    raise MisconfigurationException(
+pytorch_lightning.utilities.exceptions.MisconfigurationException: You requested gpu: [0, 1, 2, 3, 4, 5]
+ But your machine only has: [0, 1, 2, 3]

@@ -1,0 +1,62 @@
+Using 16bit native Automatic Mixed Precision (AMP)
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: libtorch_cuda_cu.so: cannot open shared object file: No such file or directory
+  warn(f"Failed to load image Python extension: {e}")
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/2
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/2
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 2 processes
+----------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/dssg/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/cnn.py", line 96, in <module>
+    trainer.fit(model,data_module)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1170, in _run
+    self.__setup_profiler()
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1795, in __setup_profiler
+    self.profiler.setup(stage=self.state.fn._setup_fn, local_rank=local_rank, log_dir=self.log_dir)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 2232, in log_dir
+    dirpath = self.strategy.broadcast(dirpath)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/strategies/ddp.py", line 311, in broadcast
+    torch.distributed.broadcast_object_list(obj, src, group=_group.WORLD)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 1869, in broadcast_object_list
+    broadcast(object_sizes_tensor, src=src, group=group)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 1187, in broadcast
+    work = default_pg.broadcast([tensor], opts)
+RuntimeError: NCCL error in: ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:47, unhandled cuda error, NCCL version 21.0.3
+ncclUnhandledCudaError: Call to CUDA function failed.
+Traceback (most recent call last):
+  File "/dssg/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/cnn.py", line 96, in <module>
+    trainer.fit(model,data_module)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 719, in _call_and_handle_interrupt
+    return self.strategy.launcher.launch(trainer_fn, *args, trainer=self, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/strategies/launchers/subprocess_script.py", line 93, in launch
+    return function(*args, **kwargs)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1170, in _run
+    self.__setup_profiler()
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1795, in __setup_profiler
+    self.profiler.setup(stage=self.state.fn._setup_fn, local_rank=local_rank, log_dir=self.log_dir)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 2232, in log_dir
+    dirpath = self.strategy.broadcast(dirpath)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/pytorch_lightning/strategies/ddp.py", line 311, in broadcast
+    torch.distributed.broadcast_object_list(obj, src, group=_group.WORLD)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 1869, in broadcast_object_list
+    broadcast(object_sizes_tensor, src=src, group=group)
+  File "/dssg/home/acct-aemwx/aemwx-user1/.local/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 1187, in broadcast
+    work = default_pg.broadcast([tensor], opts)
+RuntimeError: NCCL error in: ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:47, unhandled cuda error, NCCL version 21.0.3
+ncclUnhandledCudaError: Call to CUDA function failed.
