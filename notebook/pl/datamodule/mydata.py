@@ -8,12 +8,12 @@ from torch.utils.data import DataLoader
 import random
 from pl_bolts.datamodules import SklearnDataset
 
-GPU=True
+GPU=False
 
 
 class MyDataModule(pl.LightningDataModule):
 
-    def __init__(self, data_dir: str = config.DATA_DIR, batch_size: int = 64, num_workers: int = 4,fraction_rate: float = 0.8,val_fraction_rate: float = 0.1):
+    def __init__(self, data_dir: str = config.DATA_DIR, batch_size: int = 64, num_workers: int = 20,fraction_rate: float = 0.8,val_fraction_rate: float = 0.1):
         super().__init__()
         self.data_dir = data_dir
         self.batch_size = batch_size
@@ -22,11 +22,11 @@ class MyDataModule(pl.LightningDataModule):
         self.fraction_rate = fraction_rate
         self.val_fraction_rate = val_fraction_rate
         
-        data0 = torch.load(self.data_dir+'/embedding_dict_data0.pth')
+        data0 = torch.load(data_dir+'/embedding_dict_data0.pth')
         data0_ = [data0[30*i:30*(i+1),:].flatten().detach().numpy() for i in range(int(len(data0)/30))]
         data0 = torch.Tensor(data0_)
         data0 =torch.cat([data0,torch.zeros(len(data0),1)],1)
-        data1 = torch.load(self.data_dir+'/embedding_dict_data1.pth')
+        data1 = torch.load(data_dir+'/embedding_dict_data1.pth')
         data1_ = [data1[30*i:30*(i+1),:].flatten().detach().numpy() for i in range(int(len(data1)/30))]
         data1 = torch.Tensor(data1_)
         data1 = torch.cat([data1,torch.ones(len(data1),1)],1)

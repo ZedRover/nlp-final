@@ -1,0 +1,9 @@
+Using 16bit native Automatic Mixed Precision (AMP)
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Traceback (most recent call last):
+  File "baseline.py", line 58, in <module>
+    model = BaseLineModel(LEARNING_RATE=LEARNING_RATE)
+TypeError: __init__() got an unexpected keyword argument 'LEARNING_RATE'

@@ -1,4 +1,5 @@
-data
+data/*.csv
+data/*.xlsx
 !data/embedding_dict_data0.pth
 !data/embedding_dict_data1.pth
 **/__pycache__

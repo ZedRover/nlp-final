@@ -6,7 +6,7 @@ from torch import nn
 
 class BaseLineModel(pl.LightningModule):
 
-    def __init__(self,layer1 =300,num_class=1,lr=0.01):
+    def __init__(self,layer1 =300*30,num_class=1,lr=0.01):
         super().__init__()
         self.accuracy = tm.Accuracy()
         self.save_hyperparameters()

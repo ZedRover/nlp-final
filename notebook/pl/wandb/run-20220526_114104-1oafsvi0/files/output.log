@@ -1,0 +1,553 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Global seed set to 999
+Global seed set to 999
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/6
+Global seed set to 999
+Global seed set to 999
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/6
+Global seed set to 999
+Global seed set to 999
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/6
+Global seed set to 999
+Global seed set to 999
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/6
+Global seed set to 999
+Global seed set to 999
+Initializing distributed: GLOBAL_RANK: 4, MEMBER: 5/6
+Global seed set to 999
+Global seed set to 999
+Initializing distributed: GLOBAL_RANK: 5, MEMBER: 6/6
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 6 processes
+----------------------------------------------------------------------------------------------------
+LOCAL_RANK: 5 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 4 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+  | Name      | Type              | Params
+------------------------------------------------
+0 | accuracy  | Accuracy          | 0
+1 | calc_loss | BCEWithLogitsLoss | 0
+2 | l1        | Linear            | 9.0 K
+3 | sm        | Sigmoid           | 0
+------------------------------------------------
+9.0 K     Trainable params
+0         Non-trainable params
+9.0 K     Total params
+0.036     Total estimated model params size (MB)
+[34m[1mwandb[39m[22m: Currently logged in as: [33mzedrover[39m ([33msfcap[39m). Use [1m`wandb login --relogin`[22m to force relogin
+Sanity Checking: 0it [00:00, ?it/s]
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.16
+[34m[1mwandb[39m[22m: Run data is saved locally in [35m[1m/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo
+[34m[1mwandb[39m[22m: Run [1m`wandb offline`[22m to turn off syncing.
+[34m[1mwandb[39m[22m: Syncing run [33mclassic-disco-9
+[34m[1mwandb[39m[22m: ⭐️ View project at [34m[4mhttps://wandb.ai/sfcap/baseline
+[34m[1mwandb[39m[22m: 🚀 View run at [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3n4uzfoo
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+
+Sanity Checking DataLoader 0: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 58.15it/s]
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+
+Epoch 0:   0%|                                                                                                                                                                                   | 0/2 [00:00<?, ?it/s]
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+[W reducer.cpp:1050] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters. This flag results in an extra traversal of the autograd graph every iteration, which can adversely affect performance. If your model indeed never has any unused parameters, consider turning this flag off. Note that this warning may be a false positive your model has flow control causing later iterations to have unused parameters. (function operator())
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+[W reducer.cpp:1050] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters. This flag results in an extra traversal of the autograd graph every iteration, which can adversely affect performance. If your model indeed never has any unused parameters, consider turning this flag off. Note that this warning may be a false positive your model has flow control causing later iterations to have unused parameters. (function operator())
+[W reducer.cpp:1050] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters. This flag results in an extra traversal of the autograd graph every iteration, which can adversely affect performance. If your model indeed never has any unused parameters, consider turning this flag off. Note that this warning may be a false positive your model has flow control causing later iterations to have unused parameters. (function operator())
+
+Epoch 0:  50%|█████████████████████████████████████████████████████████████████████████                                                                         | 1/2 [01:52<01:52, 112.77s/it, loss=0.772, v_num=zfoo]
+Global seed set to 999
+[W reducer.cpp:1050] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters. This flag results in an extra traversal of the autograd graph every iteration, which can adversely affect performance. If your model indeed never has any unused parameters, consider turning this flag off. Note that this warning may be a false positive your model has flow control causing later iterations to have unused parameters. (function operator())
+Global seed set to 999
+[W reducer.cpp:1050] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters. This flag results in an extra traversal of the autograd graph every iteration, which can adversely affect performance. If your model indeed never has any unused parameters, consider turning this flag off. Note that this warning may be a false positive your model has flow control causing later iterations to have unused parameters. (function operator())
+Validation: 0it [00:00, ?it/s]
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Global seed set to 999
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2b5617413c10>
+Traceback (most recent call last):
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2ba6ade21c10>
+Traceback (most recent call last):
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2b88faeacc10>
+Traceback (most recent call last):
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2ab8a17a4c10>
+Traceback (most recent call last):
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2b49ffa3ec10>
+Traceback (most recent call last):
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 263, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 86, in _run_code
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    exec(code, run_globals)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 11, in <module>
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    import wandb
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/__init__.py", line 191, in <module>
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 263, in run_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 263, in run_path
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    return _run_module_code(code, init_globals, run_name,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 96, in _run_module_code
+    return _run_module_code(code, init_globals, run_name,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 11, in <module>
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 263, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 11, in <module>
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    import wandb
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/__init__.py", line 191, in <module>
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x2b213286ac10>
+Traceback (most recent call last):
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1324, in __del__
+    _run_code(code, mod_globals, init_globals,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 86, in _run_code
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    exec(code, run_globals)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 11, in <module>
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 263, in run_path
+    import wandb
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/__init__.py", line 191, in <module>
+    self._shutdown_workers()
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1291, in _shutdown_workers
+    if wandb_sdk.lib.ipython.in_jupyter():
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/lib/ipython.py", line 39, in in_jupyter
+    if wandb_sdk.lib.ipython.in_jupyter():
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/lib/ipython.py", line 39, in in_jupyter
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 263, in run_path
+    if wandb_sdk.lib.ipython.in_jupyter():
+    import wandb
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/lib/ipython.py", line 39, in in_jupyter
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/__init__.py", line 26, in <module>
+    return _get_python_type() == "jupyter"
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/lib/ipython.py", line 25, in _get_python_type
+    return _get_python_type() == "jupyter"
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/lib/ipython.py", line 25, in _get_python_type
+    return _get_python_type() == "jupyter"
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/lib/ipython.py", line 25, in _get_python_type
+    from IPython import get_ipython  # type: ignore
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/IPython/__init__.py", line 56, in <module>
+    from IPython import get_ipython  # type: ignore
+    from wandb import sdk as wandb_sdk
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/IPython/__init__.py", line 56, in <module>
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/__init__.py", line 9, in <module>
+    return _run_module_code(code, init_globals, run_name,
+    if self._persistent_workers or self._workers_status[worker_id]:
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 96, in _run_module_code
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+    from .terminal.embed import embed
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/IPython/terminal/embed.py", line 16, in <module>
+    from .terminal.embed import embed
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/IPython/terminal/embed.py", line 16, in <module>
+    return _run_module_code(code, init_globals, run_name,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 11, in <module>
+    import wandb
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/__init__.py", line 26, in <module>
+    from wandb import sdk as wandb_sdk
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/__init__.py", line 7, in <module>
+    _run_code(code, mod_globals, init_globals,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 11, in <module>
+    import wandb
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/__init__.py", line 26, in <module>
+    from IPython.terminal.interactiveshell import TerminalInteractiveShell
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/IPython/terminal/interactiveshell.py", line 19, in <module>
+    from IPython.terminal.interactiveshell import TerminalInteractiveShell
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/IPython/terminal/interactiveshell.py", line 19, in <module>
+    from wandb import sdk as wandb_sdk
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/__init__.py", line 9, in <module>
+    from IPython import get_ipython  # type: ignore
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/IPython/__init__.py", line 56, in <module>
+    from prompt_toolkit.enums import DEFAULT_BUFFER, EditingMode
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/prompt_toolkit/__init__.py", line 18, in <module>
+    from prompt_toolkit.enums import DEFAULT_BUFFER, EditingMode
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/prompt_toolkit/__init__.py", line 16, in <module>
+    from .terminal.embed import embed
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/IPython/terminal/embed.py", line 16, in <module>
+    from IPython.terminal.interactiveshell import TerminalInteractiveShell
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/IPython/terminal/interactiveshell.py", line 19, in <module>
+    from prompt_toolkit.enums import DEFAULT_BUFFER, EditingMode
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/prompt_toolkit/__init__.py", line 18, in <module>
+    from .application import Application
+    from .shortcuts import PromptSession, print_formatted_text, prompt
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/prompt_toolkit/application/__init__.py", line 1, in <module>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/prompt_toolkit/shortcuts/__init__.py", line 1, in <module>
+    from .shortcuts import PromptSession, print_formatted_text, prompt
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/prompt_toolkit/shortcuts/__init__.py", line 10, in <module>
+    from .wandb_init import _attach, init  # noqa: F401
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 28, in <module>
+    from .wandb_artifacts import Artifact  # noqa: F401
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/wandb_artifacts.py", line 30, in <module>
+    from .wandb_init import _attach, init  # noqa: F401
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 28, in <module>
+    from .backend.backend import Backend
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 21, in <module>
+    from .backend.backend import Backend
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 21, in <module>
+    from wandb.apis import InternalApi, PublicApi
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/apis/__init__.py", line 31, in <module>
+    from .internal import Api as InternalApi  # noqa
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/apis/internal.py", line 1, in <module>
+    from .application import Application
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 59, in <module>
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish... [32m(success).
+    from .dialogs import (
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+    from .progress_bar import ProgressBar, ProgressBarCounter
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/prompt_toolkit/shortcuts/progress_bar/__init__.py", line 1, in <module>
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 874, in get_code
+  File "<frozen importlib._bootstrap_external>", line 973, in get_data
+KeyboardInterrupt
+    from .base import ProgressBar, ProgressBarCounter
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/prompt_toolkit/shortcuts/progress_bar/base.py", line 54, in <module>
+    from ..internal.internal import wandb_internal
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/internal/internal.py", line 33, in <module>
+    from ..internal.internal import wandb_internal
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/internal/internal.py", line 33, in <module>
+    from wandb.sdk.internal.internal_api import Api as InternalApi
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 12, in <module>
+    from .formatters import Formatter, create_default_formatters
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 874, in get_code
+  File "<frozen importlib._bootstrap_external>", line 972, in get_data
+KeyboardInterrupt
+    from . import sender
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/internal/sender.py", line 21, in <module>
+    from . import sender
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/internal/sender.py", line 21, in <module>
+    from pkg_resources import parse_version
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/pkg_resources/__init__.py", line 3254, in <module>
+    from prompt_toolkit.key_binding.defaults import load_key_bindings
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/prompt_toolkit/key_binding/defaults.py", line 8, in <module>
+    from wandb.filesync.dir_watcher import DirWatcher
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/filesync/dir_watcher.py", line 15, in <module>
+    from wandb.filesync.dir_watcher import DirWatcher
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/filesync/dir_watcher.py", line 15, in <module>
+    from prompt_toolkit.key_binding.bindings.basic import load_basic_bindings
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/prompt_toolkit/key_binding/bindings/basic.py", line 15, in <module>
+    def _initialize_master_working_set():
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/pkg_resources/__init__.py", line 3237, in _call_aside
+    f(*args, **kwargs)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/pkg_resources/__init__.py", line 3289, in _initialize_master_working_set
+    list(map(working_set.add_entry, sys.path))
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/pkg_resources/__init__.py", line 624, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/pkg_resources/__init__.py", line 2050, in find_on_path
+    entries = safe_listdir(path_item)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/pkg_resources/__init__.py", line 2109, in safe_listdir
+    return os.listdir(path)
+KeyboardInterrupt
+    wd_polling = util.vendor_import("watchdog.observers.polling")
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/util.py", line 281, in vendor_import
+    wd_polling = util.vendor_import("watchdog.observers.polling")
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/util.py", line 281, in vendor_import
+    from .named_commands import get_by_name
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/prompt_toolkit/key_binding/bindings/named_commands.py", line 13, in <module>
+    from prompt_toolkit.layout.controls import BufferControl
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/site-packages/prompt_toolkit/layout/__init__.py", line 92, in <module>
+    module = import_module(name)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    module = import_module(name)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/vendor/watchdog/observers/__init__.py", line 63, in <module>
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/vendor/watchdog/observers/__init__.py", line 63, in <module>
+    from .inotify import InotifyObserver as Observer
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/vendor/watchdog/observers/inotify.py", line 74, in <module>
+    from .inotify import InotifyObserver as Observer
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/vendor/watchdog/observers/inotify.py", line 76, in <module>
+    from .menus import CompletionsMenu, MultiColumnCompletionsMenu
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 874, in get_code
+  File "<frozen importlib._bootstrap_external>", line 973, in get_data
+KeyboardInterrupt
+    from .inotify_buffer import InotifyBuffer
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/vendor/watchdog/observers/inotify_buffer.py", line 20, in <module>
+    from watchdog.observers.api import (
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 960, in _find_and_load_unlocked
+KeyboardInterrupt
+    from watchdog.observers.inotify_c import Inotify
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/vendor/watchdog/observers/inotify_c.py", line 445, in <module>
+    class InotifyEvent(object):
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/vendor/watchdog/observers/inotify_c.py", line 509, in InotifyEvent
+    def is_delete_self(self):
+KeyboardInterrupt
+
+Global seed set to 999.006 MB uploaded (0.000 MB deduped)
+Global seed set to 999
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/6
+[34m[1mwandb[39m[22m:
+[34m[1mwandb[39m[22m: Synced [33mclassic-disco-9[39m: [34m[4mhttps://wandb.ai/sfcap/baseline/runs/3n4uzfoo
+[34m[1mwandb[39m[22m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+[34m[1mwandb[39m[22m: Find logs at: [35m[1m./wandb/run-20220526_114311-3n4uzfoo/logs
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 263, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/lustre/opt/cascadelake/linux-centos7-x86_64/gcc-4.8.5/miniconda3-4.8.2-5yczksexambgeule63z3smwiwrbokjtu/lib/python3.8/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/baseline.py", line 11, in <module>
+    import wandb
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/__init__.py", line 26, in <module>
+    from wandb import sdk as wandb_sdk
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/__init__.py", line 9, in <module>
+    from .wandb_init import _attach, init  # noqa: F401
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 27, in <module>
+    from . import wandb_login, wandb_setup
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/wandb_login.py", line 23, in <module>
+    from .wandb_settings import Settings, Source
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/wandb_settings.py", line 38, in <module>
+    from wandb.sdk.wandb_setup import _EarlyLogger
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/wandb_setup.py", line 28, in <module>
+    from . import wandb_manager
+  File "/lustre/home/acct-aemwx/aemwx-user1/.local/lib/python3.8/site-packages/wandb/sdk/wandb_manager.py", line 11, in <module>
+    from wandb.sdk.lib.exit_hooks import ExitHooks
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 874, in get_code
+  File "<frozen importlib._bootstrap_external>", line 973, in get_data
+KeyboardInterrupt

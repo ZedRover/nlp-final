@@ -1,0 +1,221 @@
+2022-05-26 11:43:11,413 INFO    StreamThr :48880 [internal.py:wandb_internal():90] W&B internal server running at pid: 48880, started at: 2022-05-26 11:43:11.402939
+2022-05-26 11:43:11,418 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: status
+2022-05-26 11:43:11,425 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: status
+2022-05-26 11:43:11,428 DEBUG   SenderThread:48880 [sender.py:send():232] send: header
+2022-05-26 11:43:11,428 INFO    WriterThread:48880 [datastore.py:open_for_write():75] open: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/run-3n4uzfoo.wandb
+2022-05-26 11:43:11,849 DEBUG   SenderThread:48880 [sender.py:send():232] send: run
+2022-05-26 11:43:11,913 INFO    SenderThread:48880 [sender.py:_maybe_setup_resume():489] checking resume status for None/baseline/3n4uzfoo
+2022-05-26 11:43:13,568 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: check_version
+2022-05-26 11:43:13,674 INFO    SenderThread:48880 [dir_watcher.py:__init__():197] watching files in: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files
+2022-05-26 11:43:13,674 INFO    SenderThread:48880 [sender.py:_start_run_threads():811] run started: 3n4uzfoo with start time 1653536591
+2022-05-26 11:43:13,674 DEBUG   SenderThread:48880 [sender.py:send():232] send: summary
+2022-05-26 11:43:13,739 INFO    SenderThread:48880 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-26 11:43:13,761 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: check_version
+2022-05-26 11:43:14,216 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: run_start
+2022-05-26 11:43:14,266 DEBUG   HandlerThread:48880 [meta.py:__init__():35] meta init
+2022-05-26 11:43:14,266 DEBUG   HandlerThread:48880 [meta.py:__init__():49] meta init done
+2022-05-26 11:43:14,266 DEBUG   HandlerThread:48880 [meta.py:probe():209] probe
+2022-05-26 11:43:14,280 DEBUG   HandlerThread:48880 [meta.py:_setup_git():199] setup git
+2022-05-26 11:43:14,354 DEBUG   HandlerThread:48880 [meta.py:_setup_git():206] setup git done
+2022-05-26 11:43:14,355 DEBUG   HandlerThread:48880 [meta.py:_save_pip():53] save pip
+2022-05-26 11:43:14,362 DEBUG   HandlerThread:48880 [meta.py:_save_pip():67] save pip done
+2022-05-26 11:43:14,362 DEBUG   HandlerThread:48880 [meta.py:_save_conda():74] save conda
+2022-05-26 11:43:14,746 INFO    Thread-12 :48880 [dir_watcher.py:_on_file_created():244] file/dir created: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/requirements.txt
+2022-05-26 11:43:14,747 INFO    Thread-12 :48880 [dir_watcher.py:_on_file_created():244] file/dir created: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/conda-environment.yaml
+2022-05-26 11:43:14,747 INFO    Thread-12 :48880 [dir_watcher.py:_on_file_created():244] file/dir created: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/wandb-summary.json
+2022-05-26 11:43:17,233 DEBUG   HandlerThread:48880 [meta.py:_save_conda():84] save conda done
+2022-05-26 11:43:17,233 DEBUG   HandlerThread:48880 [meta.py:probe():247] probe done
+2022-05-26 11:43:17,529 DEBUG   SenderThread:48880 [sender.py:send():232] send: files
+2022-05-26 11:43:17,529 INFO    SenderThread:48880 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-05-26 11:43:17,537 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-26 11:43:17,537 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: stop_status
+2022-05-26 11:43:17,745 INFO    Thread-12 :48880 [dir_watcher.py:_on_file_created():244] file/dir created: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/output.log
+2022-05-26 11:43:17,746 INFO    Thread-12 :48880 [dir_watcher.py:_on_file_created():244] file/dir created: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/wandb-metadata.json
+2022-05-26 11:43:18,319 DEBUG   SenderThread:48880 [sender.py:send():232] send: telemetry
+2022-05-26 11:43:18,319 DEBUG   SenderThread:48880 [sender.py:send():232] send: metric
+2022-05-26 11:43:18,320 DEBUG   SenderThread:48880 [sender.py:send():232] send: telemetry
+2022-05-26 11:43:18,320 DEBUG   SenderThread:48880 [sender.py:send():232] send: metric
+2022-05-26 11:43:18,321 WARNING SenderThread:48880 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2022-05-26 11:43:18,321 DEBUG   SenderThread:48880 [sender.py:send():232] send: config
+2022-05-26 11:43:19,231 INFO    Thread-16 :48880 [upload_job.py:push():132] Uploaded file /tmp/tmpon2af0giwandb/8932zdia-wandb-metadata.json
+2022-05-26 11:43:19,793 INFO    Thread-12 :48880 [dir_watcher.py:_on_file_modified():257] file/dir modified: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/output.log
+2022-05-26 11:43:33,323 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-26 11:43:33,325 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: stop_status
+2022-05-26 11:43:44,031 INFO    Thread-12 :48880 [dir_watcher.py:_on_file_modified():257] file/dir modified: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/config.yaml
+2022-05-26 11:43:49,136 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-26 11:43:49,137 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: stop_status
+2022-05-26 11:44:05,165 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-26 11:44:05,166 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: stop_status
+2022-05-26 11:44:13,384 DEBUG   SenderThread:48880 [sender.py:send():232] send: stats
+2022-05-26 11:44:20,963 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-26 11:44:20,966 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: stop_status
+2022-05-26 11:44:36,788 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-26 11:44:36,789 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: stop_status
+2022-05-26 11:44:52,640 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-26 11:44:52,641 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: stop_status
+2022-05-26 11:45:06,739 INFO    Thread-12 :48880 [dir_watcher.py:_on_file_modified():257] file/dir modified: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/output.log
+2022-05-26 11:45:08,467 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-26 11:45:08,468 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: stop_status
+2022-05-26 11:45:08,761 INFO    Thread-12 :48880 [dir_watcher.py:_on_file_modified():257] file/dir modified: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/output.log
+2022-05-26 11:45:17,246 DEBUG   SenderThread:48880 [sender.py:send():232] send: stats
+2022-05-26 11:45:24,298 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-26 11:45:24,307 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: stop_status
+2022-05-26 11:45:40,135 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-26 11:45:40,136 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: stop_status
+2022-05-26 11:45:56,004 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-26 11:45:56,005 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: stop_status
+2022-05-26 11:46:11,776 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-26 11:46:11,777 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: stop_status
+2022-05-26 11:46:22,816 DEBUG   SenderThread:48880 [sender.py:send():232] send: stats
+2022-05-26 11:46:27,643 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-26 11:46:27,644 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: stop_status
+2022-05-26 11:46:43,426 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-26 11:46:43,427 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: stop_status
+2022-05-26 11:46:59,244 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-26 11:46:59,245 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: stop_status
+2022-05-26 11:47:00,814 INFO    Thread-12 :48880 [dir_watcher.py:_on_file_modified():257] file/dir modified: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/output.log
+2022-05-26 11:47:02,812 INFO    Thread-12 :48880 [dir_watcher.py:_on_file_modified():257] file/dir modified: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/output.log
+2022-05-26 11:47:15,065 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-26 11:47:15,066 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: stop_status
+2022-05-26 11:47:22,757 DEBUG   SenderThread:48880 [sender.py:send():232] send: stats
+2022-05-26 11:47:28,857 DEBUG   SenderThread:48880 [sender.py:send():232] send: exit
+2022-05-26 11:47:28,858 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:28,858 INFO    SenderThread:48880 [sender.py:send_exit():368] handling exit code: 0
+2022-05-26 11:47:28,859 INFO    SenderThread:48880 [sender.py:send_exit():370] handling runtime: 254
+2022-05-26 11:47:28,862 INFO    SenderThread:48880 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-26 11:47:28,864 INFO    SenderThread:48880 [sender.py:send_exit():376] send defer
+2022-05-26 11:47:28,864 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:28,873 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: defer
+2022-05-26 11:47:28,873 INFO    HandlerThread:48880 [handler.py:handle_request_defer():164] handle defer: 0
+2022-05-26 11:47:28,874 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: defer
+2022-05-26 11:47:28,874 INFO    SenderThread:48880 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-05-26 11:47:28,874 INFO    SenderThread:48880 [sender.py:transition_state():389] send defer: 1
+2022-05-26 11:47:28,879 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: defer
+2022-05-26 11:47:28,879 INFO    HandlerThread:48880 [handler.py:handle_request_defer():164] handle defer: 1
+2022-05-26 11:47:29,031 INFO    Thread-12 :48880 [dir_watcher.py:_on_file_modified():257] file/dir modified: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/output.log
+2022-05-26 11:47:29,031 INFO    Thread-12 :48880 [dir_watcher.py:_on_file_modified():257] file/dir modified: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/wandb-summary.json
+2022-05-26 11:47:33,122 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: defer
+2022-05-26 11:47:33,122 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:33,122 INFO    SenderThread:48880 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-05-26 11:47:33,123 INFO    SenderThread:48880 [sender.py:transition_state():389] send defer: 2
+2022-05-26 11:47:33,123 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:33,123 DEBUG   SenderThread:48880 [sender.py:send():232] send: stats
+2022-05-26 11:47:33,125 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: defer
+2022-05-26 11:47:33,128 INFO    HandlerThread:48880 [handler.py:handle_request_defer():164] handle defer: 2
+2022-05-26 11:47:33,129 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: defer
+2022-05-26 11:47:33,129 INFO    SenderThread:48880 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-05-26 11:47:33,130 INFO    SenderThread:48880 [sender.py:transition_state():389] send defer: 3
+2022-05-26 11:47:33,130 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: defer
+2022-05-26 11:47:33,131 INFO    HandlerThread:48880 [handler.py:handle_request_defer():164] handle defer: 3
+2022-05-26 11:47:33,131 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: defer
+2022-05-26 11:47:33,131 INFO    SenderThread:48880 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-05-26 11:47:33,131 INFO    SenderThread:48880 [sender.py:transition_state():389] send defer: 4
+2022-05-26 11:47:33,132 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: defer
+2022-05-26 11:47:33,132 INFO    HandlerThread:48880 [handler.py:handle_request_defer():164] handle defer: 4
+2022-05-26 11:47:33,132 DEBUG   SenderThread:48880 [sender.py:send():232] send: summary
+2022-05-26 11:47:33,137 INFO    SenderThread:48880 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-26 11:47:33,139 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: defer
+2022-05-26 11:47:33,139 INFO    SenderThread:48880 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-05-26 11:47:33,139 INFO    SenderThread:48880 [sender.py:transition_state():389] send defer: 5
+2022-05-26 11:47:33,140 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: defer
+2022-05-26 11:47:33,140 INFO    HandlerThread:48880 [handler.py:handle_request_defer():164] handle defer: 5
+2022-05-26 11:47:33,140 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: defer
+2022-05-26 11:47:33,140 INFO    SenderThread:48880 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-05-26 11:47:33,140 INFO    SenderThread:48880 [sender.py:transition_state():389] send defer: 6
+2022-05-26 11:47:33,141 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: defer
+2022-05-26 11:47:33,141 INFO    HandlerThread:48880 [handler.py:handle_request_defer():164] handle defer: 6
+2022-05-26 11:47:33,141 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: defer
+2022-05-26 11:47:33,141 INFO    SenderThread:48880 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-05-26 11:47:33,141 INFO    SenderThread:48880 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-05-26 11:47:33,231 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:34,044 INFO    SenderThread:48880 [dir_watcher.py:_on_file_modified():257] file/dir modified: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/wandb-summary.json
+2022-05-26 11:47:34,045 INFO    SenderThread:48880 [dir_watcher.py:finish():342] scan: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files
+2022-05-26 11:47:34,046 INFO    SenderThread:48880 [dir_watcher.py:finish():356] scan save: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/wandb-metadata.json wandb-metadata.json
+2022-05-26 11:47:34,046 INFO    SenderThread:48880 [dir_watcher.py:finish():356] scan save: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/output.log output.log
+2022-05-26 11:47:34,047 INFO    SenderThread:48880 [dir_watcher.py:finish():356] scan save: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/wandb-summary.json wandb-summary.json
+2022-05-26 11:47:34,047 INFO    SenderThread:48880 [dir_watcher.py:finish():356] scan save: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/conda-environment.yaml conda-environment.yaml
+2022-05-26 11:47:34,047 INFO    SenderThread:48880 [dir_watcher.py:finish():356] scan save: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/config.yaml config.yaml
+2022-05-26 11:47:34,047 INFO    SenderThread:48880 [dir_watcher.py:finish():356] scan save: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/requirements.txt requirements.txt
+2022-05-26 11:47:34,047 INFO    SenderThread:48880 [sender.py:transition_state():389] send defer: 7
+2022-05-26 11:47:34,047 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:34,048 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: defer
+2022-05-26 11:47:34,048 INFO    HandlerThread:48880 [handler.py:handle_request_defer():164] handle defer: 7
+2022-05-26 11:47:34,049 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: defer
+2022-05-26 11:47:34,054 INFO    SenderThread:48880 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-05-26 11:47:34,057 INFO    SenderThread:48880 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-26 11:47:34,158 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:34,159 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:34,260 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:34,260 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:34,362 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:34,362 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:34,464 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:34,464 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:34,565 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:34,566 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:34,667 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:34,667 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:34,769 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:34,769 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:34,871 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:34,871 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:34,973 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:34,973 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:35,075 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:35,075 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:35,177 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:35,179 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:35,281 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:35,281 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:35,383 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:35,383 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:35,484 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:35,485 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:35,586 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:35,587 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:35,689 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:35,689 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:35,750 INFO    Thread-19 :48880 [upload_job.py:push():132] Uploaded file /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/config.yaml
+2022-05-26 11:47:35,768 INFO    Thread-18 :48880 [upload_job.py:push():132] Uploaded file /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/wandb-summary.json
+2022-05-26 11:47:35,783 INFO    Thread-17 :48880 [upload_job.py:push():132] Uploaded file /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/output.log
+2022-05-26 11:47:35,791 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:35,791 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:35,828 INFO    Thread-20 :48880 [upload_job.py:push():132] Uploaded file /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/files/requirements.txt
+2022-05-26 11:47:35,893 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:35,893 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:36,003 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:36,009 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:36,030 INFO    Thread-11 :48880 [sender.py:transition_state():389] send defer: 8
+2022-05-26 11:47:36,031 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: defer
+2022-05-26 11:47:36,031 INFO    HandlerThread:48880 [handler.py:handle_request_defer():164] handle defer: 8
+2022-05-26 11:47:36,032 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: defer
+2022-05-26 11:47:36,032 INFO    SenderThread:48880 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-05-26 11:47:36,115 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:37,174 INFO    SenderThread:48880 [sender.py:transition_state():389] send defer: 9
+2022-05-26 11:47:37,174 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:37,176 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: defer
+2022-05-26 11:47:37,187 INFO    HandlerThread:48880 [handler.py:handle_request_defer():164] handle defer: 9
+2022-05-26 11:47:37,187 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: defer
+2022-05-26 11:47:37,188 INFO    SenderThread:48880 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-05-26 11:47:37,188 INFO    SenderThread:48880 [sender.py:transition_state():389] send defer: 10
+2022-05-26 11:47:37,198 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: defer
+2022-05-26 11:47:37,198 INFO    HandlerThread:48880 [handler.py:handle_request_defer():164] handle defer: 10
+2022-05-26 11:47:37,199 DEBUG   SenderThread:48880 [sender.py:send():232] send: final
+2022-05-26 11:47:37,199 DEBUG   SenderThread:48880 [sender.py:send():232] send: footer
+2022-05-26 11:47:37,199 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: defer
+2022-05-26 11:47:37,199 INFO    SenderThread:48880 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-05-26 11:47:37,291 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-26 11:47:37,297 DEBUG   SenderThread:48880 [sender.py:send_request():246] send_request: poll_exit
+2022-05-26 11:47:37,297 INFO    SenderThread:48880 [file_pusher.py:join():150] waiting for file pusher
+2022-05-26 11:47:38,949 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: sampled_history
+2022-05-26 11:47:38,950 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: get_summary
+2022-05-26 11:47:38,951 INFO    MainThread:48880 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2022-05-26 11:47:38,951 INFO    MainThread:48880 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2022-05-26 11:47:38,951 INFO    MainThread:48880 [wandb_run.py:_footer_sync_info():3060] logging synced files
+2022-05-26 11:47:38,952 DEBUG   HandlerThread:48880 [handler.py:handle_request():141] handle_request: shutdown
+2022-05-26 11:47:38,952 INFO    HandlerThread:48880 [handler.py:finish():806] shutting down handler
+2022-05-26 11:47:39,200 INFO    WriterThread:48880 [datastore.py:close():279] close: /lustre/home/acct-aemwx/aemwx-user1/wangyu/my/nlp-final/notebook/pl/wandb/run-20220526_114311-3n4uzfoo/run-3n4uzfoo.wandb
+2022-05-26 11:47:39,848 INFO    SenderThread:48880 [sender.py:finish():1110] shutting down sender
+2022-05-26 11:47:39,848 INFO    SenderThread:48880 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-26 11:47:39,849 INFO    SenderThread:48880 [file_pusher.py:join():150] waiting for file pusher
+2022-05-26 11:47:40,009 INFO    MainThread:48880 [internal.py:handle_exit():80] Internal process exited

@@ -20,10 +20,13 @@ import warnings
 warnings.filterwarnings('ignore')
 from models.model import *
 from datamodule.mydata import *
-gpu = False
-random.seed(999)
 
-
+RANDOM_SEED=999
+# pl.seed_everything(RANDOM_SEED)
+NUM_GPU=6
+MAX_EPOCH=100
+LEARNING_RATE = 0.01
+BATCH_SIZE=256
 
 if __name__=='__main__':
     wandb.login()
@@ -42,18 +45,18 @@ if __name__=='__main__':
      mode="min")
     
     trainer = pl.Trainer(accelerator='auto',
-                         max_epochs=100,
+                         max_epochs=MAX_EPOCH,
                         callbacks=[checkpoint_callback,
                                    early_stop_callback,
                                    ],
                         logger=wandb_logger,
                         strategy="fsdp",
                         check_val_every_n_epoch=1,
-                        devices=6,
+                        devices=NUM_GPU,
                         precision=16,
                         )
-    model = BaseLineModel(lr=0.01)
-    data_module = MyDataModule(batch_size=256,num_workers=10)
+    model = BaseLineModel(lr=LEARNING_RATE)
+    data_module = MyDataModule(batch_size=BATCH_SIZE,num_workers=10)
     trainer.fit(model,data_module)
     trainer.test(model, datamodule=data_module)
     wandb.finish()
